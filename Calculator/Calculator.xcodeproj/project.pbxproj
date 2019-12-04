@@ -25,6 +25,8 @@
 		7A17D97F239681B70035765E /* CalcFakeServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D97E239681B70035765E /* CalcFakeServer.m */; };
 		7A17D9812396A3D50035765E /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A17D9802396A3D50035765E /* MBProgressHUD.framework */; };
 		7A17D9822396A3D50035765E /* MBProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A17D9802396A3D50035765E /* MBProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7A67D3A1239737C900EEDF5B /* CalcNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67D3A0239737C900EEDF5B /* CalcNetworking.swift */; };
+		7A67D3A42397411A00EEDF5B /* CalcRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67D3A32397411A00EEDF5B /* CalcRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +86,8 @@
 		7A17D97D239681B70035765E /* CalcFakeServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcFakeServer.h; sourceTree = "<group>"; };
 		7A17D97E239681B70035765E /* CalcFakeServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcFakeServer.m; sourceTree = "<group>"; };
 		7A17D9802396A3D50035765E /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = Carthage/Build/iOS/MBProgressHUD.framework; sourceTree = "<group>"; };
+		7A67D3A0239737C900EEDF5B /* CalcNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcNetworking.swift; sourceTree = "<group>"; };
+		7A67D3A32397411A00EEDF5B /* CalcRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,7 @@
 		7A17D85D239624000035765E /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				7A67D39B2397376400EEDF5B /* Utility */,
 				7A17D9502396483A0035765E /* MVC */,
 				7A17D94D2396480C0035765E /* Common */,
 				7A17D955239648A20035765E /* FakeServer */,
@@ -199,6 +204,7 @@
 		7A17D94F239648310035765E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7A67D3A32397411A00EEDF5B /* CalcRequest.swift */,
 				7A17D956239649550035765E /* CalcModel.swift */,
 			);
 			path = Model;
@@ -245,6 +251,14 @@
 				7A17D95B23964AA70035765E /* MVCController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A67D39B2397376400EEDF5B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				7A67D3A0239737C900EEDF5B /* CalcNetworking.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,9 +421,11 @@
 				7A17D9522396487B0035765E /* CalcView.swift in Sources */,
 				7A17D863239624000035765E /* ViewController.swift in Sources */,
 				7A17D85F239624000035765E /* AppDelegate.swift in Sources */,
+				7A67D3A42397411A00EEDF5B /* CalcRequest.swift in Sources */,
 				7A17D957239649550035765E /* CalcModel.swift in Sources */,
 				7A17D96023965C6E0035765E /* MVCView.swift in Sources */,
 				7A17D97F239681B70035765E /* CalcFakeServer.m in Sources */,
+				7A67D3A1239737C900EEDF5B /* CalcNetworking.swift in Sources */,
 				7A17D94C239647A90035765E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
