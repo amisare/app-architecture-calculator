@@ -11,6 +11,7 @@ import UIKit
 class MVCController: UIViewController {
 	
 	var model = MVCModel.init()
+	var observer : NSObjectProtocol?
 	
 	lazy var calculator: MVCView = {
 		let view = MVCView.init()
@@ -35,7 +36,7 @@ class MVCController: UIViewController {
 	}
 	
 	private func setupEvents() {
-		NotificationCenter.default.addObserver(forName: MVCModel.resultCalculated, object: nil, queue: nil) { [calculator] (note) in
+		self.observer = NotificationCenter.default.addObserver(forName: MVCModel.resultCalculated, object: nil, queue: nil) { [calculator] (note) in
 			calculator.inputTextField.text = note.userInfo?[MVCModel.resultKey] as? String
 		}
 		
@@ -53,6 +54,12 @@ class MVCController: UIViewController {
 		MBProgressHUD.showAdded(to: self.view, animated: true)
 		model.calculate(formula: formula) {
 			MBProgressHUD.hide(for: self.view, animated: true)
+		}
+	}
+	
+	deinit {
+		if let observer = self.observer {
+			NotificationCenter.default.removeObserver(observer)
 		}
 	}
 }
