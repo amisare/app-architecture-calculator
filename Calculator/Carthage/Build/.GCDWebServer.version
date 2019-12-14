@@ -1,9 +1,24 @@
 {
+  "Mac" : [
+    {
+      "name" : "GCDWebServers",
+      "hash" : "4cc5ec8db953dac1d242614a85eac79ee8cc21a7ed41db113ef754776e1b1630"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "name" : "GCDWebServers",
+      "hash" : "bfc5012f0cfedc14d536afe57054692a4a0a10ff4f90ca9e19a01ca46906c54a"
+    }
+  ],
   "commitish" : "3.5.3",
   "iOS" : [
     {
       "name" : "GCDWebServers",
-      "hash" : "46c2f211a56661f84ab04cb92df0a3f108dd2f388c7e478d26c4159679d4b5a9"
+      "hash" : "e916ad374b313359ca5a88906333d4584b2359164499cbdc1bf11d6ec8360013"
     }
   ]
 }
