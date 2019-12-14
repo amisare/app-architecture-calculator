@@ -50,6 +50,8 @@
 		679F0A6E23A53032003F11A1 /* CalculatorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67D3A32397411A00EEDF5B /* CalculatorRequest.swift */; };
 		679F0A6F23A53032003F11A1 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D956239649550035765E /* CalculatorBrain.swift */; };
 		679F0A7023A53500003F11A1 /* CalculatorFakeServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D97E239681B70035765E /* CalculatorFakeServer.m */; };
+		679F0A7223A543AD003F11A1 /* input.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 679F0A7123A543AD003F11A1 /* input.xcfilelist */; };
+		679F0A7423A543CA003F11A1 /* output.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 679F0A7323A543CA003F11A1 /* output.xcfilelist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +150,8 @@
 		679F0A5C23A4FD5D003F11A1 /* MVPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPView.swift; sourceTree = "<group>"; };
 		679F0A6023A4FD6A003F11A1 /* Calculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator-Bridging-Header.h"; sourceTree = "<group>"; };
 		679F0A6123A4FE47003F11A1 /* MVPPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPPresenter.swift; sourceTree = "<group>"; };
+		679F0A7123A543AD003F11A1 /* input.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = input.xcfilelist; sourceTree = "<group>"; };
+		679F0A7323A543CA003F11A1 /* output.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = output.xcfilelist; sourceTree = "<group>"; };
 		7A17D907239644330035765E /* GCDWebServers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GCDWebServers.framework; path = Carthage/Build/iOS/GCDWebServers.framework; sourceTree = "<group>"; };
 		7A17D9512396487B0035765E /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 		7A17D956239649550035765E /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
@@ -220,6 +224,8 @@
 				679F09DC23A4C771003F11A1 /* LaunchScreen.storyboard */,
 				679F09DF23A4C771003F11A1 /* Info.plist */,
 				679F0A1523A4C85F003F11A1 /* Calculator-Bridging-Header.h */,
+				679F0A7123A543AD003F11A1 /* input.xcfilelist */,
+				679F0A7323A543CA003F11A1 /* output.xcfilelist */,
 			);
 			path = CalculatorMVC;
 			sourceTree = "<group>";
@@ -602,8 +608,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679F0A7223A543AD003F11A1 /* input.xcfilelist in Resources */,
 				679F09DE23A4C771003F11A1 /* LaunchScreen.storyboard in Resources */,
 				679F09DB23A4C771003F11A1 /* Assets.xcassets in Resources */,
+				679F0A7423A543CA003F11A1 /* output.xcfilelist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
