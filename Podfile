@@ -13,6 +13,8 @@ def common_pods
     pod 'MBProgressHUD'
     pod 'Toast'
     pod 'ComponentKit', :path => './Local Podspecs/ComponentKit.podspec'
+    pod 'RxSwift'
+    pod 'RxCocoa'
 end
 
 target :CalculatorMVC do

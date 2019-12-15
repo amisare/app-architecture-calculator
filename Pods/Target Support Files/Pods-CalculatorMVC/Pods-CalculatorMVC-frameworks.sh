@@ -167,6 +167,9 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_bcsymbolmap "${PODS_ROOT}/../Local Podspecs/Carthage/Build/iOS/5606CAF9-BBD7-3F8F-914C-A042FBD4F289.bcsymbolmap"
   install_framework "${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Toast/Toast.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -176,6 +179,9 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_bcsymbolmap "${PODS_ROOT}/../Local Podspecs/Carthage/Build/iOS/5606CAF9-BBD7-3F8F-914C-A042FBD4F289.bcsymbolmap"
   install_framework "${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Toast/Toast.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

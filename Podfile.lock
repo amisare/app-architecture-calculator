@@ -4,18 +4,29 @@ PODS:
     - GCDWebServer/Core (= 3.5.3)
   - GCDWebServer/Core (3.5.3)
   - MBProgressHUD (1.1.0)
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
   - Toast (4.0.0)
 
 DEPENDENCIES:
   - ComponentKit (from `./Local Podspecs/ComponentKit.podspec`)
   - GCDWebServer
   - MBProgressHUD
+  - RxCocoa
+  - RxSwift
   - Toast
 
 SPEC REPOS:
   trunk:
     - GCDWebServer
     - MBProgressHUD
+    - RxCocoa
+    - RxRelay
+    - RxSwift
     - Toast
 
 EXTERNAL SOURCES:
@@ -26,8 +37,11 @@ SPEC CHECKSUMS:
   ComponentKit: 8b814589aa7ec4397f3009cee77434bad1fd1dc1
   GCDWebServer: c0ab22c73e1b84f358d1e2f74bf6afd1c60829f2
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
-PODFILE CHECKSUM: 43d52d07cbe7308336a02d00ae4e98fd8aade8bd
+PODFILE CHECKSUM: 08e43b395ae91e3559697febd202c33ee48b153d
 
 COCOAPODS: 1.8.4
