@@ -7,7 +7,9 @@
 //
 
 #import "CalculatorFakeServer.h"
-#import <GCDWebServers/GCDWebServers.h>
+#import <GCDWebServer/GCDWebServer.h>
+#import <GCDWebServer/GCDWebServerDataRequest.h>
+#import <GCDWebServer/GCDWebServerDataResponse.h>
 
 @interface CalculatorFakeServer() <GCDWebServerDelegate>
 
@@ -31,10 +33,12 @@ static dispatch_once_t _onceToken;
 }
 
 - (void)start {
-	NSMutableDictionary* options = [NSMutableDictionary dictionary];
-	[options setObject:@8080 forKey:GCDWebServerOption_Port];
-	[options setObject:@(true) forKey:GCDWebServerOption_BindToLocalhost];
-	[self.server startWithOptions:options error:nil];
+    if (self.server.isRunning == false) {
+        NSMutableDictionary* options = [NSMutableDictionary dictionary];
+        [options setObject:@8080 forKey:GCDWebServerOption_Port];
+        [options setObject:@(true) forKey:GCDWebServerOption_BindToLocalhost];
+        [self.server startWithOptions:options error:nil];
+    }
 }
 
 - (void)stop {

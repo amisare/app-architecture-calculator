@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-CalculatorMVC/Pods-CalculatorMVC-frameworks.sh
+${PODS_ROOT}/../Local Podspecs/ComponentKit.framework
+${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/Toast/Toast.framework

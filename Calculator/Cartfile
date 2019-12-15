@@ -1,5 +1,0 @@
-
-#github "swisspol/GCDWebServer" ~> 3.2.5
-#github "jdg/MBProgressHUD" ~> 1.1.0
-#github "facebook/ComponentKit" ~> 0.29
-github "scalessec/Toast" ~> 4.0.0
