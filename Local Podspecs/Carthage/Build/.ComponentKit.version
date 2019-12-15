@@ -1,0 +1,21 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "name" : "ComponentKit",
+      "hash" : "5167ab91987e592ed08d86d30e9b102a113c665d491ed6c931f86b075b19b443"
+    }
+  ],
+  "commitish" : "0.29",
+  "iOS" : [
+    {
+      "name" : "ComponentKit",
+      "hash" : "a8ba69aacfeb0bd894320981ae3fc6f6a2914ceda936d4f85c9a951c01f07663"
+    }
+  ]
+}

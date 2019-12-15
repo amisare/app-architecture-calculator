@@ -13,7 +13,7 @@
     "ios": "7.0"
   },
   "requires_arc": true,
-  "vendored_frameworks": "ComponentKit.framework",
+  "vendored_frameworks": "Carthage/Build/iOS/ComponentKit.framework",
   "frameworks": [
     "UIKit",
     "CoreText"

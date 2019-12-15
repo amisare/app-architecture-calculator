@@ -182,6 +182,7 @@
 		8FB514F356E1846F3F176D42C11843AD /* Pods-CalculatorMVC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalculatorMVC-frameworks.sh"; sourceTree = "<group>"; };
 		935EA47674033F326B7F329C51DFDC75 /* GCDWebServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServer.h; path = GCDWebServer/Core/GCDWebServer.h; sourceTree = "<group>"; };
 		95F6937B5C48DFFA34CB1068CC60791E /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerMultiPartFormRequest.h; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		9774F8A30678C9CA7FA81DB0F3C7B408 /* ComponentKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ComponentKit.framework; path = Carthage/Build/iOS/ComponentKit.framework; sourceTree = "<group>"; };
 		984302049ECE1ADEB8E8CE7F357DB130 /* Pods-CalculatorMVP-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalculatorMVP-frameworks.sh"; sourceTree = "<group>"; };
 		9D313FF142D3B0D3953E54A7AC8A5587 /* Pods-CalculatorMVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalculatorMVP.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -215,7 +216,6 @@
 		DC809CCB8E8576A0361639E910C14043 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		E03D50C9DCA7C17E1DE9C70E3315C9A3 /* Pods_CalculatorMVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CalculatorMVP.framework; path = "Pods-CalculatorMVP.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EED5B1B388C5C70076A8E7D3484849 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
-		EE86D3154F07E2CD2CBCEBE718ED1996 /* ComponentKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ComponentKit.framework; sourceTree = "<group>"; };
 		FBC6561150E055619C93C86C430444C9 /* GCDWebServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -328,6 +328,14 @@
 			path = "Target Support Files/Pods-CalculatorMVC";
 			sourceTree = "<group>";
 		};
+		45DF6416A705F7A8463C572E03FCC0C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9774F8A30678C9CA7FA81DB0F3C7B408 /* ComponentKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4E7F53F6AE15EAE8B6A06CA3E4B1C25A /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -424,7 +432,7 @@
 		84BB4778C62724DEA6E41623227A17EA /* ComponentKit */ = {
 			isa = PBXGroup;
 			children = (
-				CBA7159B4ABBA43377644E254ECF9C67 /* Frameworks */,
+				45DF6416A705F7A8463C572E03FCC0C8 /* Frameworks */,
 				35249621663C29350F2633662DA4F241 /* Pod */,
 				16DBC53899383E3344C11883B2E321CD /* Support Files */,
 			);
@@ -471,14 +479,6 @@
 			);
 			name = MBProgressHUD;
 			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
-		CBA7159B4ABBA43377644E254ECF9C67 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EE86D3154F07E2CD2CBCEBE718ED1996 /* ComponentKit.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
