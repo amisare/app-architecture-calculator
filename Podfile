@@ -17,10 +17,18 @@ def common_pods
     pod 'RxCocoa'
 end
 
-target :CalculatorMVC do
+target 'CalculatorMVC' do
     common_pods
 end
 
-target :CalculatorMVP do
+target 'CalculatorMVP' do
+    common_pods
+end
+
+target 'CalculatorMVVM' do
+    common_pods
+end
+
+target 'CalculatorMVVM-Rx' do
     common_pods
 end

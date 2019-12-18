@@ -1,0 +1,6 @@
+framework module Pods_CalculatorMVVM {
+  umbrella header "Pods-CalculatorMVVM-umbrella.h"
+
+  export *
+  module * { export * }
+}

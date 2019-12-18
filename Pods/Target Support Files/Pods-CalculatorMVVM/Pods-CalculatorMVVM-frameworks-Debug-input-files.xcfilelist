@@ -1,0 +1,10 @@
+${PODS_ROOT}/Target Support Files/Pods-CalculatorMVVM/Pods-CalculatorMVVM-frameworks.sh
+${PODS_ROOT}/../Local Podspecs/Carthage/Build/iOS/ComponentKit.framework
+${PODS_ROOT}/../Local Podspecs/Carthage/Build/iOS/B148C858-5768-3317-B03D-44B83A2D2315.bcsymbolmap
+${PODS_ROOT}/../Local Podspecs/Carthage/Build/iOS/5606CAF9-BBD7-3F8F-914C-A042FBD4F289.bcsymbolmap
+${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/Toast/Toast.framework
