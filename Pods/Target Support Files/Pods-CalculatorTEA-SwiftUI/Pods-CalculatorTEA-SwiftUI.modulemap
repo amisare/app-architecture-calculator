@@ -1,0 +1,6 @@
+framework module Pods_CalculatorTEA_SwiftUI {
+  umbrella header "Pods-CalculatorTEA-SwiftUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
