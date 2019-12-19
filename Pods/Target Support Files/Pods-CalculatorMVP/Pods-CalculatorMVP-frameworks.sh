@@ -162,6 +162,7 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_ROOT}/../Local Podspecs/Carthage/Build/iOS/ComponentKit.framework"
+  install_dsym "${PODS_ROOT}/../Local Podspecs/Carthage/Build/iOS/ComponentKit.framework.dSYM"
   install_bcsymbolmap "${PODS_ROOT}/../Local Podspecs/Carthage/Build/iOS/B148C858-5768-3317-B03D-44B83A2D2315.bcsymbolmap"
   install_bcsymbolmap "${PODS_ROOT}/../Local Podspecs/Carthage/Build/iOS/5606CAF9-BBD7-3F8F-914C-A042FBD4F289.bcsymbolmap"
   install_framework "${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework"
@@ -173,6 +174,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_ROOT}/../Local Podspecs/Carthage/Build/iOS/ComponentKit.framework"
+  install_dsym "${PODS_ROOT}/../Local Podspecs/Carthage/Build/iOS/ComponentKit.framework.dSYM"
   install_bcsymbolmap "${PODS_ROOT}/../Local Podspecs/Carthage/Build/iOS/B148C858-5768-3317-B03D-44B83A2D2315.bcsymbolmap"
   install_bcsymbolmap "${PODS_ROOT}/../Local Podspecs/Carthage/Build/iOS/5606CAF9-BBD7-3F8F-914C-A042FBD4F289.bcsymbolmap"
   install_framework "${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework"

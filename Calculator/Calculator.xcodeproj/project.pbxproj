@@ -10,6 +10,7 @@
 		0A87BC1E37FFAE21B7DEE619 /* Pods_CalculatorMVC_VS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346574447AE0CDB4BEB41D51 /* Pods_CalculatorMVC_VS.framework */; };
 		0E011D45B0EDE97AFA3B0864 /* Pods_CalculatorMVVM_Rx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BB20DC04D134E3151B25BE /* Pods_CalculatorMVVM_Rx.framework */; };
 		378BBFE9EDEC6F5EC9420299 /* Pods_CalculatorTEA_SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405EBA14F69E2E3B714B5CD3 /* Pods_CalculatorTEA_SwiftUI.framework */; };
+		418663B9046D6EC012A228F1 /* Pods_CalculatorTEA_CK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3161CA30BC785FE33DF1FAB9 /* Pods_CalculatorTEA_CK.framework */; };
 		679F09D223A4C76E003F11A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F09D123A4C76E003F11A1 /* AppDelegate.swift */; };
 		679F09D423A4C76E003F11A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F09D323A4C76E003F11A1 /* SceneDelegate.swift */; };
 		679F09DB23A4C771003F11A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 679F09DA23A4C771003F11A1 /* Assets.xcassets */; };
@@ -41,6 +42,22 @@
 		679F0A6E23A53032003F11A1 /* CalculatorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67D3A32397411A00EEDF5B /* CalculatorRequest.swift */; };
 		679F0A6F23A53032003F11A1 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D956239649550035765E /* CalculatorBrain.swift */; };
 		679F0A7023A53500003F11A1 /* CalculatorFakeServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D97E239681B70035765E /* CalculatorFakeServer.m */; };
+		67B8F50323ABBDEC00588D51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F50223ABBDEC00588D51 /* AppDelegate.m */; };
+		67B8F50623ABBDEC00588D51 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F50523ABBDEC00588D51 /* SceneDelegate.m */; };
+		67B8F50923ABBDEC00588D51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F50823ABBDEC00588D51 /* ViewController.m */; };
+		67B8F50C23ABBDEC00588D51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B8F50A23ABBDEC00588D51 /* Main.storyboard */; };
+		67B8F50E23ABBDEF00588D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B8F50D23ABBDEF00588D51 /* Assets.xcassets */; };
+		67B8F51123ABBDEF00588D51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B8F50F23ABBDEF00588D51 /* LaunchScreen.storyboard */; };
+		67B8F51423ABBDEF00588D51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F51323ABBDEF00588D51 /* main.m */; };
+		67B8F51E23ABBDEF00588D51 /* CalculatorTEA_CKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F51D23ABBDEF00588D51 /* CalculatorTEA_CKTests.m */; };
+		67B8F52923ABBDEF00588D51 /* CalculatorTEA_CKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F52823ABBDEF00588D51 /* CalculatorTEA_CKUITests.m */; };
+		67B8F53B23ABBF3C00588D51 /* TEAController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F53A23ABBF3C00588D51 /* TEAController.mm */; };
+		67B8F53C23ABBF6900588D51 /* CalculatorFakeServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D97E239681B70035765E /* CalculatorFakeServer.m */; };
+		67B8F54123ABD35900588D51 /* MVCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F53D23ABD35900588D51 /* MVCController.swift */; };
+		67B8F54223ABD35900588D51 /* MVCBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F53E23ABD35900588D51 /* MVCBrain.swift */; };
+		67B8F54323ABD35900588D51 /* MVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F53F23ABD35900588D51 /* MVCView.swift */; };
+		67B8F54423ABD35900588D51 /* MVCViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F54023ABD35900588D51 /* MVCViewState.swift */; };
+		67B8F54A23ABD99100588D51 /* TEADriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F54923ABD99100588D51 /* TEADriver.m */; };
 		7A1975D623AA014800D6BFDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1975D523AA014800D6BFDA /* AppDelegate.swift */; };
 		7A1975D823AA014800D6BFDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1975D723AA014800D6BFDA /* SceneDelegate.swift */; };
 		7A1975DA23AA014800D6BFDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1975D923AA014800D6BFDA /* ViewController.swift */; };
@@ -91,10 +108,6 @@
 		7AE39B8A23AB017B0099C731 /* CalculatorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F0A2023A4CF2C003F11A1 /* CalculatorResult.swift */; };
 		7AE39B8B23AB017B0099C731 /* CalculatorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67D3A32397411A00EEDF5B /* CalculatorRequest.swift */; };
 		7AE39B8C23AB017B0099C731 /* CalculatorFakeServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D97E239681B70035765E /* CalculatorFakeServer.m */; };
-		7AE39B9223AB022B0099C731 /* MVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39B8E23AB022A0099C731 /* MVCView.swift */; };
-		7AE39B9323AB022B0099C731 /* MVCViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39B8F23AB022A0099C731 /* MVCViewState.swift */; };
-		7AE39B9423AB022B0099C731 /* MVCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39B9023AB022A0099C731 /* MVCController.swift */; };
-		7AE39B9523AB022B0099C731 /* MVCBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39B9123AB022A0099C731 /* MVCBrain.swift */; };
 		7AE39BD423AB10740099C731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39BD323AB10740099C731 /* AppDelegate.swift */; };
 		7AE39BD623AB10740099C731 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39BD523AB10740099C731 /* SceneDelegate.swift */; };
 		7AE39BD823AB10740099C731 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39BD723AB10740099C731 /* ViewController.swift */; };
@@ -145,6 +158,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 679F0A2523A4FD1F003F11A1;
 			remoteInfo = CalculatorMVP;
+		};
+		67B8F51A23ABBDEF00588D51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A17D853239624000035765E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67B8F4FE23ABBDEC00588D51;
+			remoteInfo = "CalculatorTEA-CK";
+		};
+		67B8F52523ABBDEF00588D51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A17D853239624000035765E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67B8F4FE23ABBDEC00588D51;
+			remoteInfo = "CalculatorTEA-CK";
 		};
 		7A1975E923AA014900D6BFDA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -206,9 +233,11 @@
 
 /* Begin PBXFileReference section */
 		1706AC70E846F5C7E0233D90 /* Pods_CalculatorMVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorMVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F46E26EBFDA65D1E59CFAE9 /* Pods-CalculatorTEA-CK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorTEA-CK.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-CalculatorTEA-CK/Pods-CalculatorTEA-CK.debug.xcconfig"; sourceTree = "<group>"; };
 		23729D8A7460D67273FEDAC0 /* Pods-CalculatorTEA-SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorTEA-SwiftUI.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-CalculatorTEA-SwiftUI/Pods-CalculatorTEA-SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 		2411E011877325AF15480629 /* Pods-CalculatorMVVM-Rx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorMVVM-Rx.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-CalculatorMVVM-Rx/Pods-CalculatorMVVM-Rx.release.xcconfig"; sourceTree = "<group>"; };
 		28656DBB885B4415892D0340 /* Pods_CalculatorMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3161CA30BC785FE33DF1FAB9 /* Pods_CalculatorTEA_CK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorTEA_CK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		346574447AE0CDB4BEB41D51 /* Pods_CalculatorMVC_VS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorMVC_VS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		405EBA14F69E2E3B714B5CD3 /* Pods_CalculatorTEA_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorTEA_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BB20DC04D134E3151B25BE /* Pods_CalculatorMVVM_Rx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorMVVM_Rx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -248,6 +277,32 @@
 		679F0A5C23A4FD5D003F11A1 /* MVPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPView.swift; sourceTree = "<group>"; };
 		679F0A6023A4FD6A003F11A1 /* Calculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator-Bridging-Header.h"; sourceTree = "<group>"; };
 		679F0A6123A4FE47003F11A1 /* MVPPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPPresenter.swift; sourceTree = "<group>"; };
+		67B8F4FF23ABBDEC00588D51 /* CalculatorTEA-CK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalculatorTEA-CK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B8F50123ABBDEC00588D51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67B8F50223ABBDEC00588D51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67B8F50423ABBDEC00588D51 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		67B8F50523ABBDEC00588D51 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		67B8F50723ABBDEC00588D51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		67B8F50823ABBDEC00588D51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		67B8F50B23ABBDEC00588D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67B8F50D23ABBDEF00588D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67B8F51023ABBDEF00588D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67B8F51223ABBDEF00588D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B8F51323ABBDEF00588D51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67B8F51923ABBDEF00588D51 /* CalculatorTEA-CKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CalculatorTEA-CKTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B8F51D23ABBDEF00588D51 /* CalculatorTEA_CKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTEA_CKTests.m; sourceTree = "<group>"; };
+		67B8F51F23ABBDEF00588D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B8F52423ABBDEF00588D51 /* CalculatorTEA-CKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CalculatorTEA-CKUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B8F52823ABBDEF00588D51 /* CalculatorTEA_CKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTEA_CKUITests.m; sourceTree = "<group>"; };
+		67B8F52A23ABBDEF00588D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B8F53923ABBF3C00588D51 /* TEAController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEAController.h; sourceTree = "<group>"; };
+		67B8F53A23ABBF3C00588D51 /* TEAController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TEAController.mm; sourceTree = "<group>"; };
+		67B8F53D23ABD35900588D51 /* MVCController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVCController.swift; path = "CalculatorMVC-VS/MVC-VS/Controller/MVCController.swift"; sourceTree = SOURCE_ROOT; };
+		67B8F53E23ABD35900588D51 /* MVCBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVCBrain.swift; path = "CalculatorMVC-VS/MVC-VS/Model/MVCBrain.swift"; sourceTree = SOURCE_ROOT; };
+		67B8F53F23ABD35900588D51 /* MVCView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVCView.swift; path = "CalculatorMVC-VS/MVC-VS/View/MVCView.swift"; sourceTree = SOURCE_ROOT; };
+		67B8F54023ABD35900588D51 /* MVCViewState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVCViewState.swift; path = "CalculatorMVC-VS/MVC-VS/Model/MVCViewState.swift"; sourceTree = SOURCE_ROOT; };
+		67B8F54823ABD99100588D51 /* TEADriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEADriver.h; sourceTree = "<group>"; };
+		67B8F54923ABD99100588D51 /* TEADriver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEADriver.m; sourceTree = "<group>"; };
 		6AAF436EDE02B2415306ED0E /* Pods-CalculatorMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorMVVM.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-CalculatorMVVM/Pods-CalculatorMVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		7A17D907239644330035765E /* GCDWebServers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GCDWebServers.framework; path = Carthage/Build/iOS/GCDWebServers.framework; sourceTree = "<group>"; };
 		7A17D9512396487B0035765E /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
@@ -310,10 +365,6 @@
 		7AE39B7A23AB010D0099C731 /* CalculatorMVC_VSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorMVC_VSUITests.swift; sourceTree = "<group>"; };
 		7AE39B7C23AB010D0099C731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AE39B8D23AB01930099C731 /* Calculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator-Bridging-Header.h"; sourceTree = "<group>"; };
-		7AE39B8E23AB022A0099C731 /* MVCView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVCView.swift; path = ../MVCView.swift; sourceTree = "<group>"; };
-		7AE39B8F23AB022A0099C731 /* MVCViewState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVCViewState.swift; path = ../MVCViewState.swift; sourceTree = "<group>"; };
-		7AE39B9023AB022A0099C731 /* MVCController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVCController.swift; path = ../MVCController.swift; sourceTree = "<group>"; };
-		7AE39B9123AB022A0099C731 /* MVCBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVCBrain.swift; path = ../MVCBrain.swift; sourceTree = "<group>"; };
 		7AE39BD123AB10740099C731 /* CalculatorTEA-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalculatorTEA-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE39BD323AB10740099C731 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AE39BD523AB10740099C731 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -333,6 +384,7 @@
 		7AE39C4F23AB5DE20099C731 /* Calculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator-Bridging-Header.h"; sourceTree = "<group>"; };
 		7AE39C5023AB67910099C731 /* TEALoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEALoadingView.swift; sourceTree = "<group>"; };
 		7AE39C5523AB70B30099C731 /* TEABrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEABrain.swift; sourceTree = "<group>"; };
+		80EA46EBAC54922F50D900D0 /* Pods-CalculatorTEA-CK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorTEA-CK.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-CalculatorTEA-CK/Pods-CalculatorTEA-CK.release.xcconfig"; sourceTree = "<group>"; };
 		820087EA3DA2B8E716AC121B /* Pods_CalculatorMVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorMVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F8CEA81D802D0DD108A171 /* Pods-CalculatorTEA-SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorTEA-SwiftUI.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-CalculatorTEA-SwiftUI/Pods-CalculatorTEA-SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 		9FE5C7ABD221BE55058066B1 /* Pods-CalculatorMVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorMVC.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-CalculatorMVC/Pods-CalculatorMVC.debug.xcconfig"; sourceTree = "<group>"; };
@@ -383,6 +435,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		679F0A4323A4FD22003F11A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B8F4FC23ABBDEC00588D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418663B9046D6EC012A228F1 /* Pods_CalculatorTEA_CK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B8F51623ABBDEF00588D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B8F52123ABBDEF00588D51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -613,6 +687,113 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		67B8F50023ABBDEC00588D51 /* CalculatorTEA-CK */ = {
+			isa = PBXGroup;
+			children = (
+				67B8F53423ABBE9F00588D51 /* TEA */,
+				67B8F50123ABBDEC00588D51 /* AppDelegate.h */,
+				67B8F50223ABBDEC00588D51 /* AppDelegate.m */,
+				67B8F50423ABBDEC00588D51 /* SceneDelegate.h */,
+				67B8F50523ABBDEC00588D51 /* SceneDelegate.m */,
+				67B8F50723ABBDEC00588D51 /* ViewController.h */,
+				67B8F50823ABBDEC00588D51 /* ViewController.m */,
+				67B8F50A23ABBDEC00588D51 /* Main.storyboard */,
+				67B8F50D23ABBDEF00588D51 /* Assets.xcassets */,
+				67B8F50F23ABBDEF00588D51 /* LaunchScreen.storyboard */,
+				67B8F51223ABBDEF00588D51 /* Info.plist */,
+				67B8F51323ABBDEF00588D51 /* main.m */,
+			);
+			path = "CalculatorTEA-CK";
+			sourceTree = "<group>";
+		};
+		67B8F51C23ABBDEF00588D51 /* CalculatorTEA-CKTests */ = {
+			isa = PBXGroup;
+			children = (
+				67B8F51D23ABBDEF00588D51 /* CalculatorTEA_CKTests.m */,
+				67B8F51F23ABBDEF00588D51 /* Info.plist */,
+			);
+			path = "CalculatorTEA-CKTests";
+			sourceTree = "<group>";
+		};
+		67B8F52723ABBDEF00588D51 /* CalculatorTEA-CKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67B8F52823ABBDEF00588D51 /* CalculatorTEA_CKUITests.m */,
+				67B8F52A23ABBDEF00588D51 /* Info.plist */,
+			);
+			path = "CalculatorTEA-CKUITests";
+			sourceTree = "<group>";
+		};
+		67B8F53423ABBE9F00588D51 /* TEA */ = {
+			isa = PBXGroup;
+			children = (
+				67B8F53823ABBEC700588D51 /* State */,
+				67B8F53723ABBEC300588D51 /* View */,
+				67B8F53623ABBEBC00588D51 /* Model */,
+			);
+			path = TEA;
+			sourceTree = "<group>";
+		};
+		67B8F53523ABBEAA00588D51 /* TEA */ = {
+			isa = PBXGroup;
+			children = (
+				7AE39C5423AB70990099C731 /* Model */,
+				7AE39C5223AB70600099C731 /* View */,
+				7AE39C5323AB70890099C731 /* State */,
+			);
+			path = TEA;
+			sourceTree = "<group>";
+		};
+		67B8F53623ABBEBC00588D51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67B8F53723ABBEC300588D51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67B8F53923ABBF3C00588D51 /* TEAController.h */,
+				67B8F53A23ABBF3C00588D51 /* TEAController.mm */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67B8F53823ABBEC700588D51 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				67B8F54823ABD99100588D51 /* TEADriver.h */,
+				67B8F54923ABD99100588D51 /* TEADriver.m */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		67B8F54523ABD35C00588D51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67B8F53E23ABD35900588D51 /* MVCBrain.swift */,
+				67B8F54023ABD35900588D51 /* MVCViewState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67B8F54623ABD36C00588D51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67B8F53F23ABD35900588D51 /* MVCView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67B8F54723ABD37700588D51 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				67B8F53D23ABD35900588D51 /* MVCController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		7A17D852239624000035765E = {
 			isa = PBXGroup;
 			children = (
@@ -636,6 +817,9 @@
 				7AE39BD223AB10740099C731 /* CalculatorTEA-SwiftUI */,
 				7AE39BE923AB10760099C731 /* CalculatorTEA-SwiftUITests */,
 				7AE39BF423AB10760099C731 /* CalculatorTEA-SwiftUIUITests */,
+				67B8F50023ABBDEC00588D51 /* CalculatorTEA-CK */,
+				67B8F51C23ABBDEF00588D51 /* CalculatorTEA-CKTests */,
+				67B8F52723ABBDEF00588D51 /* CalculatorTEA-CKUITests */,
 				7A17D85C239624000035765E /* Products */,
 				7A17D906239644320035765E /* Frameworks */,
 				857B8F3B5515D50E581646F1 /* Pods */,
@@ -663,6 +847,9 @@
 				7AE39BD123AB10740099C731 /* CalculatorTEA-SwiftUI.app */,
 				7AE39BE623AB10760099C731 /* CalculatorTEA-SwiftUITests.xctest */,
 				7AE39BF123AB10760099C731 /* CalculatorTEA-SwiftUIUITests.xctest */,
+				67B8F4FF23ABBDEC00588D51 /* CalculatorTEA-CK.app */,
+				67B8F51923ABBDEF00588D51 /* CalculatorTEA-CKTests.xctest */,
+				67B8F52423ABBDEF00588D51 /* CalculatorTEA-CKUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -679,6 +866,7 @@
 				64BB20DC04D134E3151B25BE /* Pods_CalculatorMVVM_Rx.framework */,
 				346574447AE0CDB4BEB41D51 /* Pods_CalculatorMVC_VS.framework */,
 				405EBA14F69E2E3B714B5CD3 /* Pods_CalculatorTEA_SwiftUI.framework */,
+				3161CA30BC785FE33DF1FAB9 /* Pods_CalculatorTEA_CK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -903,44 +1091,17 @@
 		7AE39B8623AB011F0099C731 /* MVC-VS */ = {
 			isa = PBXGroup;
 			children = (
-				7AE39B9723AB023E0099C731 /* Model */,
-				7AE39B9823AB02440099C731 /* View */,
-				7AE39B9623AB02370099C731 /* Controller */,
+				67B8F54723ABD37700588D51 /* Controller */,
+				67B8F54623ABD36C00588D51 /* View */,
+				67B8F54523ABD35C00588D51 /* Model */,
 			);
 			path = "MVC-VS";
-			sourceTree = "<group>";
-		};
-		7AE39B9623AB02370099C731 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				7AE39B9023AB022A0099C731 /* MVCController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		7AE39B9723AB023E0099C731 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				7AE39B9123AB022A0099C731 /* MVCBrain.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		7AE39B9823AB02440099C731 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				7AE39B8E23AB022A0099C731 /* MVCView.swift */,
-				7AE39B8F23AB022A0099C731 /* MVCViewState.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		7AE39BD223AB10740099C731 /* CalculatorTEA-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				7AE39C5423AB70990099C731 /* Model */,
-				7AE39C5223AB70600099C731 /* View */,
-				7AE39C5323AB70890099C731 /* State */,
+				67B8F53523ABBEAA00588D51 /* TEA */,
 				7AE39C5023AB67910099C731 /* TEALoadingView.swift */,
 				7AE39BD323AB10740099C731 /* AppDelegate.swift */,
 				7AE39BD523AB10740099C731 /* SceneDelegate.swift */,
@@ -1011,6 +1172,8 @@
 				C996FDAB9FE189E6273B74A9 /* Pods-CalculatorMVC-VS.release.xcconfig */,
 				23729D8A7460D67273FEDAC0 /* Pods-CalculatorTEA-SwiftUI.debug.xcconfig */,
 				91F8CEA81D802D0DD108A171 /* Pods-CalculatorTEA-SwiftUI.release.xcconfig */,
+				1F46E26EBFDA65D1E59CFAE9 /* Pods-CalculatorTEA-CK.debug.xcconfig */,
+				80EA46EBAC54922F50D900D0 /* Pods-CalculatorTEA-CK.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1126,6 +1289,61 @@
 			name = CalculatorMVPUITests;
 			productName = CalculatorMVPUITests;
 			productReference = 679F0A4623A4FD22003F11A1 /* CalculatorMVPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		67B8F4FE23ABBDEC00588D51 /* CalculatorTEA-CK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B8F52B23ABBDEF00588D51 /* Build configuration list for PBXNativeTarget "CalculatorTEA-CK" */;
+			buildPhases = (
+				879DE01991AE130DBB536C07 /* [CP] Check Pods Manifest.lock */,
+				67B8F4FB23ABBDEC00588D51 /* Sources */,
+				67B8F4FC23ABBDEC00588D51 /* Frameworks */,
+				67B8F4FD23ABBDEC00588D51 /* Resources */,
+				472E9945A21250BC1BA583E1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CalculatorTEA-CK";
+			productName = "CalculatorTEA-CK";
+			productReference = 67B8F4FF23ABBDEC00588D51 /* CalculatorTEA-CK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67B8F51823ABBDEF00588D51 /* CalculatorTEA-CKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B8F52E23ABBDEF00588D51 /* Build configuration list for PBXNativeTarget "CalculatorTEA-CKTests" */;
+			buildPhases = (
+				67B8F51523ABBDEF00588D51 /* Sources */,
+				67B8F51623ABBDEF00588D51 /* Frameworks */,
+				67B8F51723ABBDEF00588D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67B8F51B23ABBDEF00588D51 /* PBXTargetDependency */,
+			);
+			name = "CalculatorTEA-CKTests";
+			productName = "CalculatorTEA-CKTests";
+			productReference = 67B8F51923ABBDEF00588D51 /* CalculatorTEA-CKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67B8F52323ABBDEF00588D51 /* CalculatorTEA-CKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B8F53123ABBDEF00588D51 /* Build configuration list for PBXNativeTarget "CalculatorTEA-CKUITests" */;
+			buildPhases = (
+				67B8F52023ABBDEF00588D51 /* Sources */,
+				67B8F52123ABBDEF00588D51 /* Frameworks */,
+				67B8F52223ABBDEF00588D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67B8F52623ABBDEF00588D51 /* PBXTargetDependency */,
+			);
+			name = "CalculatorTEA-CKUITests";
+			productName = "CalculatorTEA-CKUITests";
+			productReference = 67B8F52423ABBDEF00588D51 /* CalculatorTEA-CKUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		7A1975D223AA014800D6BFDA /* CalculatorMVVM */ = {
@@ -1354,7 +1572,7 @@
 		7A17D853239624000035765E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "顾海军";
 				TargetAttributes = {
@@ -1379,6 +1597,17 @@
 					679F0A4523A4FD22003F11A1 = {
 						CreatedOnToolsVersion = 11.3;
 						TestTargetID = 679F0A2523A4FD1F003F11A1;
+					};
+					67B8F4FE23ABBDEC00588D51 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					67B8F51823ABBDEF00588D51 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 67B8F4FE23ABBDEC00588D51;
+					};
+					67B8F52323ABBDEF00588D51 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 67B8F4FE23ABBDEC00588D51;
 					};
 					7A1975D223AA014800D6BFDA = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -1457,6 +1686,9 @@
 				7AE39BD023AB10740099C731 /* CalculatorTEA-SwiftUI */,
 				7AE39BE523AB10760099C731 /* CalculatorTEA-SwiftUITests */,
 				7AE39BF023AB10760099C731 /* CalculatorTEA-SwiftUIUITests */,
+				67B8F4FE23ABBDEC00588D51 /* CalculatorTEA-CK */,
+				67B8F51823ABBDEF00588D51 /* CalculatorTEA-CKTests */,
+				67B8F52323ABBDEF00588D51 /* CalculatorTEA-CKUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1502,6 +1734,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		679F0A4423A4FD22003F11A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B8F4FD23ABBDEC00588D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B8F51123ABBDEF00588D51 /* LaunchScreen.storyboard in Resources */,
+				67B8F50E23ABBDEF00588D51 /* Assets.xcassets in Resources */,
+				67B8F50C23ABBDEC00588D51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B8F51723ABBDEF00588D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B8F52223ABBDEF00588D51 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1629,6 +1885,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		472E9945A21250BC1BA583E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalculatorTEA-CK/Pods-CalculatorTEA-CK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalculatorTEA-CK/Pods-CalculatorTEA-CK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalculatorTEA-CK/Pods-CalculatorTEA-CK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		547161F419EEE1D7BD4CB8E8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1701,6 +1974,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CalculatorMVC-VS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		879DE01991AE130DBB536C07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalculatorTEA-CK-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1913,6 +2208,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		67B8F4FB23ABBDEC00588D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B8F54A23ABD99100588D51 /* TEADriver.m in Sources */,
+				67B8F50923ABBDEC00588D51 /* ViewController.m in Sources */,
+				67B8F50323ABBDEC00588D51 /* AppDelegate.m in Sources */,
+				67B8F51423ABBDEF00588D51 /* main.m in Sources */,
+				67B8F53C23ABBF6900588D51 /* CalculatorFakeServer.m in Sources */,
+				67B8F53B23ABBF3C00588D51 /* TEAController.mm in Sources */,
+				67B8F50623ABBDEC00588D51 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B8F51523ABBDEF00588D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B8F51E23ABBDEF00588D51 /* CalculatorTEA_CKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B8F52023ABBDEF00588D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B8F52923ABBDEF00588D51 /* CalculatorTEA_CKUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7A1975CF23AA014800D6BFDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1990,14 +2315,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AE39B8923AB017B0099C731 /* CalculatorBrain.swift in Sources */,
-				7AE39B9223AB022B0099C731 /* MVCView.swift in Sources */,
 				7AE39B5D23AB010C0099C731 /* ViewController.swift in Sources */,
-				7AE39B9523AB022B0099C731 /* MVCBrain.swift in Sources */,
 				7AE39B8823AB017B0099C731 /* CalculatorView.swift in Sources */,
-				7AE39B9423AB022B0099C731 /* MVCController.swift in Sources */,
 				7AE39B8C23AB017B0099C731 /* CalculatorFakeServer.m in Sources */,
+				67B8F54423ABD35900588D51 /* MVCViewState.swift in Sources */,
 				7AE39B5923AB010C0099C731 /* AppDelegate.swift in Sources */,
-				7AE39B9323AB022B0099C731 /* MVCViewState.swift in Sources */,
+				67B8F54123ABD35900588D51 /* MVCController.swift in Sources */,
+				67B8F54323ABD35900588D51 /* MVCView.swift in Sources */,
+				67B8F54223ABD35900588D51 /* MVCBrain.swift in Sources */,
 				7AE39B8A23AB017B0099C731 /* CalculatorResult.swift in Sources */,
 				7AE39B8B23AB017B0099C731 /* CalculatorRequest.swift in Sources */,
 				7AE39B8723AB017B0099C731 /* CalculatorNetwork.swift in Sources */,
@@ -2079,6 +2404,16 @@
 			target = 679F0A2523A4FD1F003F11A1 /* CalculatorMVP */;
 			targetProxy = 679F0A4723A4FD22003F11A1 /* PBXContainerItemProxy */;
 		};
+		67B8F51B23ABBDEF00588D51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67B8F4FE23ABBDEC00588D51 /* CalculatorTEA-CK */;
+			targetProxy = 67B8F51A23ABBDEF00588D51 /* PBXContainerItemProxy */;
+		};
+		67B8F52623ABBDEF00588D51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67B8F4FE23ABBDEC00588D51 /* CalculatorTEA-CK */;
+			targetProxy = 67B8F52523ABBDEF00588D51 /* PBXContainerItemProxy */;
+		};
 		7A1975EA23AA014900D6BFDA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7A1975D223AA014800D6BFDA /* CalculatorMVVM */;
@@ -2134,6 +2469,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				679F0A3423A4FD22003F11A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		67B8F50A23ABBDEC00588D51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67B8F50B23ABBDEC00588D51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67B8F50F23ABBDEF00588D51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67B8F51023ABBDEF00588D51 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -2464,6 +2815,116 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = CalculatorMVP;
+			};
+			name = Release;
+		};
+		67B8F52C23ABBDEF00588D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F46E26EBFDA65D1E59CFAE9 /* Pods-CalculatorTEA-CK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CalculatorTEA-CK/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nn.CalculatorTEA-CK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67B8F52D23ABBDEF00588D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80EA46EBAC54922F50D900D0 /* Pods-CalculatorTEA-CK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CalculatorTEA-CK/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nn.CalculatorTEA-CK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67B8F52F23ABBDEF00588D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CalculatorTEA-CKTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nn.CalculatorTEA-CKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculatorTEA-CK.app/CalculatorTEA-CK";
+			};
+			name = Debug;
+		};
+		67B8F53023ABBDEF00588D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CalculatorTEA-CKTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nn.CalculatorTEA-CKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculatorTEA-CK.app/CalculatorTEA-CK";
+			};
+			name = Release;
+		};
+		67B8F53223ABBDEF00588D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CalculatorTEA-CKUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nn.CalculatorTEA-CKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CalculatorTEA-CK";
+			};
+			name = Debug;
+		};
+		67B8F53323ABBDEF00588D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CalculatorTEA-CKUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nn.CalculatorTEA-CKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CalculatorTEA-CK";
 			};
 			name = Release;
 		};
@@ -3132,6 +3593,33 @@
 			buildConfigurations = (
 				679F0A5423A4FD23003F11A1 /* Debug */,
 				679F0A5523A4FD23003F11A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B8F52B23ABBDEF00588D51 /* Build configuration list for PBXNativeTarget "CalculatorTEA-CK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B8F52C23ABBDEF00588D51 /* Debug */,
+				67B8F52D23ABBDEF00588D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B8F52E23ABBDEF00588D51 /* Build configuration list for PBXNativeTarget "CalculatorTEA-CKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B8F52F23ABBDEF00588D51 /* Debug */,
+				67B8F53023ABBDEF00588D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B8F53123ABBDEF00588D51 /* Build configuration list for PBXNativeTarget "CalculatorTEA-CKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B8F53223ABBDEF00588D51 /* Debug */,
+				67B8F53323ABBDEF00588D51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -40,3 +40,7 @@ end
 target 'CalculatorTEA-SwiftUI' do
     common_pods
 end
+
+target 'CalculatorTEA-CK' do
+    common_pods
+end
