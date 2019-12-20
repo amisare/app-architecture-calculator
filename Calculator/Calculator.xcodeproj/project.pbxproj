@@ -52,12 +52,10 @@
 		67B8F51E23ABBDEF00588D51 /* CalculatorTEA_CKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F51D23ABBDEF00588D51 /* CalculatorTEA_CKTests.m */; };
 		67B8F52923ABBDEF00588D51 /* CalculatorTEA_CKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F52823ABBDEF00588D51 /* CalculatorTEA_CKUITests.m */; };
 		67B8F53B23ABBF3C00588D51 /* TEAController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F53A23ABBF3C00588D51 /* TEAController.mm */; };
-		67B8F53C23ABBF6900588D51 /* CalculatorFakeServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D97E239681B70035765E /* CalculatorFakeServer.m */; };
 		67B8F54123ABD35900588D51 /* MVCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F53D23ABD35900588D51 /* MVCController.swift */; };
 		67B8F54223ABD35900588D51 /* MVCBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F53E23ABD35900588D51 /* MVCBrain.swift */; };
 		67B8F54323ABD35900588D51 /* MVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F53F23ABD35900588D51 /* MVCView.swift */; };
 		67B8F54423ABD35900588D51 /* MVCViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F54023ABD35900588D51 /* MVCViewState.swift */; };
-		67B8F54A23ABD99100588D51 /* TEADriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F54923ABD99100588D51 /* TEADriver.m */; };
 		7A1975D623AA014800D6BFDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1975D523AA014800D6BFDA /* AppDelegate.swift */; };
 		7A1975D823AA014800D6BFDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1975D723AA014800D6BFDA /* SceneDelegate.swift */; };
 		7A1975DA23AA014800D6BFDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1975D923AA014800D6BFDA /* ViewController.swift */; };
@@ -122,9 +120,17 @@
 		7AE39C4123AB1E550099C731 /* CalculatorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67D3A32397411A00EEDF5B /* CalculatorRequest.swift */; };
 		7AE39C4223AB1E550099C731 /* CalculatorFakeServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D97E239681B70035765E /* CalculatorFakeServer.m */; };
 		7AE39C4723AB22C00099C731 /* CalculatorNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67D3A0239737C900EEDF5B /* CalculatorNetwork.swift */; };
-		7AE39C4C23AB548E0099C731 /* TEADriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39C4B23AB548E0099C731 /* TEADriver.swift */; };
+		7AE39C4C23AB548E0099C731 /* TEAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39C4B23AB548E0099C731 /* TEAModel.swift */; };
 		7AE39C5123AB67910099C731 /* TEALoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39C5023AB67910099C731 /* TEALoadingView.swift */; };
 		7AE39C5623AB70B30099C731 /* TEABrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39C5523AB70B30099C731 /* TEABrain.swift */; };
+		7AE39CB323ACD84B0099C731 /* TEABrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39CB223ACD84B0099C731 /* TEABrain.m */; };
+		7AE39CB723ACD9110099C731 /* TEAState.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39CB623ACD9110099C731 /* TEAState.mm */; };
+		7AE39CBC23ACDD300099C731 /* CalculatorNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67D3A0239737C900EEDF5B /* CalculatorNetwork.swift */; };
+		7AE39CBD23ACDD300099C731 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D9512396487B0035765E /* CalculatorView.swift */; };
+		7AE39CBE23ACDD300099C731 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D956239649550035765E /* CalculatorBrain.swift */; };
+		7AE39CBF23ACDD300099C731 /* CalculatorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F0A2023A4CF2C003F11A1 /* CalculatorResult.swift */; };
+		7AE39CC023ACDD300099C731 /* CalculatorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67D3A32397411A00EEDF5B /* CalculatorRequest.swift */; };
+		7AE39CC123ACDD300099C731 /* CalculatorFakeServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D97E239681B70035765E /* CalculatorFakeServer.m */; };
 		8A9FEA206535E97960DB10C9 /* Pods_CalculatorMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28656DBB885B4415892D0340 /* Pods_CalculatorMVVM.framework */; };
 		AF43C0DA5C2598DDD0F53D42 /* Pods_CalculatorMVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1706AC70E846F5C7E0233D90 /* Pods_CalculatorMVP.framework */; };
 		DB2B0901A6BF1B601A26B3BF /* Pods_CalculatorMVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820087EA3DA2B8E716AC121B /* Pods_CalculatorMVC.framework */; };
@@ -301,8 +307,6 @@
 		67B8F53E23ABD35900588D51 /* MVCBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVCBrain.swift; path = "CalculatorMVC-VS/MVC-VS/Model/MVCBrain.swift"; sourceTree = SOURCE_ROOT; };
 		67B8F53F23ABD35900588D51 /* MVCView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVCView.swift; path = "CalculatorMVC-VS/MVC-VS/View/MVCView.swift"; sourceTree = SOURCE_ROOT; };
 		67B8F54023ABD35900588D51 /* MVCViewState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVCViewState.swift; path = "CalculatorMVC-VS/MVC-VS/Model/MVCViewState.swift"; sourceTree = SOURCE_ROOT; };
-		67B8F54823ABD99100588D51 /* TEADriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEADriver.h; sourceTree = "<group>"; };
-		67B8F54923ABD99100588D51 /* TEADriver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEADriver.m; sourceTree = "<group>"; };
 		6AAF436EDE02B2415306ED0E /* Pods-CalculatorMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorMVVM.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-CalculatorMVVM/Pods-CalculatorMVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		7A17D907239644330035765E /* GCDWebServers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GCDWebServers.framework; path = Carthage/Build/iOS/GCDWebServers.framework; sourceTree = "<group>"; };
 		7A17D9512396487B0035765E /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
@@ -380,10 +384,14 @@
 		7AE39BF523AB10760099C731 /* CalculatorTEA_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTEA_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		7AE39BF723AB10760099C731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AE39C3D23AB111C0099C731 /* TEAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEAView.swift; sourceTree = "<group>"; };
-		7AE39C4B23AB548E0099C731 /* TEADriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEADriver.swift; sourceTree = "<group>"; };
+		7AE39C4B23AB548E0099C731 /* TEAModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEAModel.swift; sourceTree = "<group>"; };
 		7AE39C4F23AB5DE20099C731 /* Calculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator-Bridging-Header.h"; sourceTree = "<group>"; };
 		7AE39C5023AB67910099C731 /* TEALoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEALoadingView.swift; sourceTree = "<group>"; };
 		7AE39C5523AB70B30099C731 /* TEABrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEABrain.swift; sourceTree = "<group>"; };
+		7AE39CB123ACD84B0099C731 /* TEABrain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEABrain.h; sourceTree = "<group>"; };
+		7AE39CB223ACD84B0099C731 /* TEABrain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEABrain.m; sourceTree = "<group>"; };
+		7AE39CB523ACD9110099C731 /* TEAState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEAState.h; sourceTree = "<group>"; };
+		7AE39CB623ACD9110099C731 /* TEAState.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TEAState.mm; sourceTree = "<group>"; };
 		80EA46EBAC54922F50D900D0 /* Pods-CalculatorTEA-CK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorTEA-CK.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-CalculatorTEA-CK/Pods-CalculatorTEA-CK.release.xcconfig"; sourceTree = "<group>"; };
 		820087EA3DA2B8E716AC121B /* Pods_CalculatorMVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorMVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F8CEA81D802D0DD108A171 /* Pods-CalculatorTEA-SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorTEA-SwiftUI.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-CalculatorTEA-SwiftUI/Pods-CalculatorTEA-SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
@@ -727,8 +735,8 @@
 		67B8F53423ABBE9F00588D51 /* TEA */ = {
 			isa = PBXGroup;
 			children = (
-				67B8F53823ABBEC700588D51 /* State */,
-				67B8F53723ABBEC300588D51 /* View */,
+				67B8F53823ABBEC700588D51 /* Model */,
+				67B8F53723ABBEC300588D51 /* State */,
 				67B8F53623ABBEBC00588D51 /* Model */,
 			);
 			path = TEA;
@@ -738,7 +746,6 @@
 			isa = PBXGroup;
 			children = (
 				7AE39C5423AB70990099C731 /* Model */,
-				7AE39C5223AB70600099C731 /* View */,
 				7AE39C5323AB70890099C731 /* State */,
 			);
 			path = TEA;
@@ -751,22 +758,24 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		67B8F53723ABBEC300588D51 /* View */ = {
+		67B8F53723ABBEC300588D51 /* State */ = {
 			isa = PBXGroup;
 			children = (
+				7AE39CB523ACD9110099C731 /* TEAState.h */,
+				7AE39CB623ACD9110099C731 /* TEAState.mm */,
 				67B8F53923ABBF3C00588D51 /* TEAController.h */,
 				67B8F53A23ABBF3C00588D51 /* TEAController.mm */,
 			);
-			path = View;
+			path = State;
 			sourceTree = "<group>";
 		};
-		67B8F53823ABBEC700588D51 /* State */ = {
+		67B8F53823ABBEC700588D51 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				67B8F54823ABD99100588D51 /* TEADriver.h */,
-				67B8F54923ABD99100588D51 /* TEADriver.m */,
+				7AE39CB123ACD84B0099C731 /* TEABrain.h */,
+				7AE39CB223ACD84B0099C731 /* TEABrain.m */,
 			);
-			path = State;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		67B8F54523ABD35C00588D51 /* Model */ = {
@@ -1133,18 +1142,10 @@
 			path = "CalculatorTEA-SwiftUIUITests";
 			sourceTree = "<group>";
 		};
-		7AE39C5223AB70600099C731 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				7AE39C3D23AB111C0099C731 /* TEAView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		7AE39C5323AB70890099C731 /* State */ = {
 			isa = PBXGroup;
 			children = (
-				7AE39C4B23AB548E0099C731 /* TEADriver.swift */,
+				7AE39C3D23AB111C0099C731 /* TEAView.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -1153,6 +1154,7 @@
 			isa = PBXGroup;
 			children = (
 				7AE39C5523AB70B30099C731 /* TEABrain.swift */,
+				7AE39C4B23AB548E0099C731 /* TEAModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -2212,12 +2214,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67B8F54A23ABD99100588D51 /* TEADriver.m in Sources */,
 				67B8F50923ABBDEC00588D51 /* ViewController.m in Sources */,
 				67B8F50323ABBDEC00588D51 /* AppDelegate.m in Sources */,
 				67B8F51423ABBDEF00588D51 /* main.m in Sources */,
-				67B8F53C23ABBF6900588D51 /* CalculatorFakeServer.m in Sources */,
+				7AE39CB723ACD9110099C731 /* TEAState.mm in Sources */,
+				7AE39CC123ACDD300099C731 /* CalculatorFakeServer.m in Sources */,
 				67B8F53B23ABBF3C00588D51 /* TEAController.mm in Sources */,
+				7AE39CC023ACDD300099C731 /* CalculatorRequest.swift in Sources */,
+				7AE39CB323ACD84B0099C731 /* TEABrain.m in Sources */,
+				7AE39CBC23ACDD300099C731 /* CalculatorNetwork.swift in Sources */,
+				7AE39CBD23ACDD300099C731 /* CalculatorView.swift in Sources */,
+				7AE39CBF23ACDD300099C731 /* CalculatorResult.swift in Sources */,
+				7AE39CBE23ACDD300099C731 /* CalculatorBrain.swift in Sources */,
 				67B8F50623ABBDEC00588D51 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2350,7 +2358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AE39C4C23AB548E0099C731 /* TEADriver.swift in Sources */,
+				7AE39C4C23AB548E0099C731 /* TEAModel.swift in Sources */,
 				7AE39C4723AB22C00099C731 /* CalculatorNetwork.swift in Sources */,
 				7AE39C4023AB1E550099C731 /* CalculatorResult.swift in Sources */,
 				7AE39C5623AB70B30099C731 /* TEABrain.swift in Sources */,
@@ -2832,6 +2840,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nn.CalculatorTEA-CK";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2850,6 +2859,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nn.CalculatorTEA-CK";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2857,6 +2867,7 @@
 		67B8F52F23ABBDEF00588D51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "CalculatorTEA-CKTests/Info.plist";
@@ -2876,6 +2887,7 @@
 		67B8F53023ABBDEF00588D51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "CalculatorTEA-CKTests/Info.plist";
@@ -2895,6 +2907,7 @@
 		67B8F53223ABBDEF00588D51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "CalculatorTEA-CKUITests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -2913,6 +2926,7 @@
 		67B8F53323ABBDEF00588D51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "CalculatorTEA-CKUITests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;

@@ -10,7 +10,7 @@ import UIKit
 import Combine
 import SwiftUI
 
-class TEADriver: ObservableObject {
+class TEAModel: ObservableObject {
     
     private var observers = [NSObjectProtocol]()
     private var brain: TEABrain

@@ -18,7 +18,7 @@ struct CalculatorBrainKey {
     static let calculateError = "CalculateError"
 }
 
-class CalculatorBrain {
+public class CalculatorBrain: NSObject {
 	
 	private(set) var formula: String = "0"
 	
@@ -28,8 +28,9 @@ class CalculatorBrain {
 		}
 	}
 	
-	init() {
+    override init() {
 		self.result = CalculatorResult.init(value: "0");
+        super.init()
 	}
 	
 	func calculate(formula: String, completion: @escaping () -> ()) {

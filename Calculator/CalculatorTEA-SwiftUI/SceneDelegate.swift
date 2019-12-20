@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         CalculatorFakeServer.shared()?.start()
         
         // Create the SwiftUI view that provides the window contents.
-        let calculator = TEAView().environmentObject(TEADriver.init(brain: TEABrain.init()))
+        let calculator = TEAView().environmentObject(TEAModel.init(brain: TEABrain.init()))
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
