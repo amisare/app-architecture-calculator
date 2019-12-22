@@ -1,19 +1,18 @@
 //
-//  TEAState.h
+//  TEALoadingComponent.h
 //  CalculatorTEA-CK
 //
-//  Created by 顾海军 on 2019/12/20.
+//  Created by GuHaijun on 2019/12/23.
 //  Copyright © 2019 顾海军. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import <ComponentKit/ComponentKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TEAState: NSObject
+@interface TEALoadingComponent : CKCompositeComponent
 
-@property (nonatomic, strong) CKComponentHostingView *view;
++ (instancetype)new;
 
 @end
 

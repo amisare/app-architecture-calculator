@@ -8,13 +8,14 @@
 
 #import "TEAController.h"
 #import <ComponentKit/ComponentKit.h>
-#import "TEABrain.h"
+#import "CalculatorTEA_CK-Swift.h"
+#import "TEAComponent.h"
 
-@interface TEAController ()<CKComponentHostingViewDelegate, CKComponentProvider>
+@interface TEAController ()
 
-@property (nonatomic, strong) CKComponentHostingView *hostView;
-@property (nonatomic, strong) TEABrain *brain;
 @property (nonatomic, strong) UIView *contentView;
+@property (nonatomic, strong) TEAModel *model;
+@property (nonatomic, strong) CKComponentHostingView *hostingView;
 
 @end
 
@@ -22,7 +23,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self setupViews];
+}
+
+- (void)setupViews {
     self.view.backgroundColor = [UIColor whiteColor];
     self.contentView = [UIView new];
     [self.view addSubview:self.contentView];
@@ -34,14 +38,26 @@
     
     [self.view layoutIfNeeded];
     
-//    self.hostView = [[CKComponentHostingView alloc] initWithComponentProvider:[TEAState class] sizeRangeProvider:nil];
-//    [self.hostView updateModel:self.brain mode:CKUpdateModeSynchronous];
-//    [self.contentView addSubview:self.hostView];
-//    self.hostView.frame = self.contentView.bounds;
+    self.hostingView = [[CKComponentHostingView alloc] initWithComponentProvider:[self class] sizeRangeProvider:nil];
+    [self.contentView addSubview:self.hostingView];
+    self.hostingView.frame = self.contentView.bounds;
+    
+    __weak TEAModel *weakModel = self.model;
+    [self.hostingView updateModel:weakModel mode:CKUpdateModeSynchronous];
+    
+    __weak TEAController *weakVc = self;
+    [self.hostingView updateContext:weakVc mode:CKUpdateModeSynchronous];
 }
 
-- (void)componentHostingViewDidInvalidateSize:(CKComponentHostingView *)hostingView {
-    
++ (CKComponent *)componentForModel:(TEAModel *)model context:(id<NSObject>)context {
+    return [TEAComponent newWithModel:model context:context];
+}
+
+- (TEAModel *)model {
+    if (_model == nil) {
+        _model = [TEAModel new];
+    }
+    return _model;
 }
 
 @end
