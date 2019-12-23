@@ -59,7 +59,6 @@
 		67B8F59D23AD190C00588D51 /* TEAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F59C23AD190C00588D51 /* TEAModel.swift */; };
 		67B8F59F23AD213300588D51 /* TEABrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F59E23AD213300588D51 /* TEABrain.swift */; };
 		67B8F5A223AFB70300588D51 /* TEAComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F5A123AFB70300588D51 /* TEAComponent.mm */; };
-		67B8F5A523AFE5BE00588D51 /* TEALoadingComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 67B8F5A423AFE5BE00588D51 /* TEALoadingComponent.mm */; };
 		7A1975D623AA014800D6BFDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1975D523AA014800D6BFDA /* AppDelegate.swift */; };
 		7A1975D823AA014800D6BFDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1975D723AA014800D6BFDA /* SceneDelegate.swift */; };
 		7A1975DA23AA014800D6BFDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1975D923AA014800D6BFDA /* ViewController.swift */; };
@@ -96,6 +95,9 @@
 		7A19769A23AA0EF400D6BFDA /* CalculatorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F0A2023A4CF2C003F11A1 /* CalculatorResult.swift */; };
 		7A19769B23AA0EF400D6BFDA /* CalculatorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67D3A32397411A00EEDF5B /* CalculatorRequest.swift */; };
 		7A19769C23AA0EF400D6BFDA /* CalculatorFakeServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D97E239681B70035765E /* CalculatorFakeServer.m */; };
+		7A2479B423B0BA050022EA43 /* TEATextFieldComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7A2479B123B0BA050022EA43 /* TEATextFieldComponent.mm */; };
+		7A2479B523B0BA050022EA43 /* TEALoadingComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7A2479B323B0BA050022EA43 /* TEALoadingComponent.mm */; };
+		7A2479B723B0BBA30022EA43 /* TEALoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2479B623B0BBA30022EA43 /* TEALoadingView.swift */; };
 		7AE39B5923AB010C0099C731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39B5823AB010C0099C731 /* AppDelegate.swift */; };
 		7AE39B5B23AB010C0099C731 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39B5A23AB010C0099C731 /* SceneDelegate.swift */; };
 		7AE39B5D23AB010C0099C731 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39B5C23AB010C0099C731 /* ViewController.swift */; };
@@ -125,7 +127,6 @@
 		7AE39C4223AB1E550099C731 /* CalculatorFakeServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D97E239681B70035765E /* CalculatorFakeServer.m */; };
 		7AE39C4723AB22C00099C731 /* CalculatorNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67D3A0239737C900EEDF5B /* CalculatorNetwork.swift */; };
 		7AE39C4C23AB548E0099C731 /* TEAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39C4B23AB548E0099C731 /* TEAModel.swift */; };
-		7AE39C5123AB67910099C731 /* TEALoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39C5023AB67910099C731 /* TEALoadingView.swift */; };
 		7AE39C5623AB70B30099C731 /* TEABrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39C5523AB70B30099C731 /* TEABrain.swift */; };
 		7AE39CBC23ACDD300099C731 /* CalculatorNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67D3A0239737C900EEDF5B /* CalculatorNetwork.swift */; };
 		7AE39CBD23ACDD300099C731 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D9512396487B0035765E /* CalculatorView.swift */; };
@@ -313,8 +314,6 @@
 		67B8F59E23AD213300588D51 /* TEABrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEABrain.swift; sourceTree = "<group>"; };
 		67B8F5A023AFB70300588D51 /* TEAComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEAComponent.h; sourceTree = "<group>"; };
 		67B8F5A123AFB70300588D51 /* TEAComponent.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TEAComponent.mm; sourceTree = "<group>"; };
-		67B8F5A323AFE5BE00588D51 /* TEALoadingComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEALoadingComponent.h; sourceTree = "<group>"; };
-		67B8F5A423AFE5BE00588D51 /* TEALoadingComponent.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TEALoadingComponent.mm; sourceTree = "<group>"; };
 		6AAF436EDE02B2415306ED0E /* Pods-CalculatorMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorMVVM.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-CalculatorMVVM/Pods-CalculatorMVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		7A17D907239644330035765E /* GCDWebServers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GCDWebServers.framework; path = Carthage/Build/iOS/GCDWebServers.framework; sourceTree = "<group>"; };
 		7A17D9512396487B0035765E /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
@@ -360,6 +359,11 @@
 		7A19769023AA0EC900D6BFDA /* MVVMView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMView.swift; sourceTree = "<group>"; };
 		7A19769123AA0EC900D6BFDA /* MVVMController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMController.swift; sourceTree = "<group>"; };
 		7A19769623AA0EE400D6BFDA /* Calculator-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Calculator-Bridging-Header.h"; sourceTree = "<group>"; };
+		7A2479B023B0BA040022EA43 /* TEALoadingComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEALoadingComponent.h; sourceTree = "<group>"; };
+		7A2479B123B0BA050022EA43 /* TEATextFieldComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TEATextFieldComponent.mm; sourceTree = "<group>"; };
+		7A2479B223B0BA050022EA43 /* TEATextFieldComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEATextFieldComponent.h; sourceTree = "<group>"; };
+		7A2479B323B0BA050022EA43 /* TEALoadingComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TEALoadingComponent.mm; sourceTree = "<group>"; };
+		7A2479B623B0BBA30022EA43 /* TEALoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TEALoadingView.swift; sourceTree = "<group>"; };
 		7A67D3A0239737C900EEDF5B /* CalculatorNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorNetwork.swift; sourceTree = "<group>"; };
 		7A67D3A32397411A00EEDF5B /* CalculatorRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorRequest.swift; sourceTree = "<group>"; };
 		7AE39B5623AB010C0099C731 /* CalculatorMVC-VS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalculatorMVC-VS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -394,7 +398,6 @@
 		7AE39C3D23AB111C0099C731 /* TEAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEAView.swift; sourceTree = "<group>"; };
 		7AE39C4B23AB548E0099C731 /* TEAModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEAModel.swift; sourceTree = "<group>"; };
 		7AE39C4F23AB5DE20099C731 /* Calculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator-Bridging-Header.h"; sourceTree = "<group>"; };
-		7AE39C5023AB67910099C731 /* TEALoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEALoadingView.swift; sourceTree = "<group>"; };
 		7AE39C5523AB70B30099C731 /* TEABrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEABrain.swift; sourceTree = "<group>"; };
 		80EA46EBAC54922F50D900D0 /* Pods-CalculatorTEA-CK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorTEA-CK.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-CalculatorTEA-CK/Pods-CalculatorTEA-CK.release.xcconfig"; sourceTree = "<group>"; };
 		820087EA3DA2B8E716AC121B /* Pods_CalculatorMVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorMVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -741,8 +744,6 @@
 			children = (
 				67B8F53823ABBEC700588D51 /* Model */,
 				67B8F53723ABBEC300588D51 /* State */,
-				67B8F5A323AFE5BE00588D51 /* TEALoadingComponent.h */,
-				67B8F5A423AFE5BE00588D51 /* TEALoadingComponent.mm */,
 			);
 			path = TEA;
 			sourceTree = "<group>";
@@ -763,6 +764,10 @@
 				67B8F5A123AFB70300588D51 /* TEAComponent.mm */,
 				67B8F53923ABBF3C00588D51 /* TEAController.h */,
 				67B8F53A23ABBF3C00588D51 /* TEAController.mm */,
+				7A2479B023B0BA040022EA43 /* TEALoadingComponent.h */,
+				7A2479B323B0BA050022EA43 /* TEALoadingComponent.mm */,
+				7A2479B223B0BA050022EA43 /* TEATextFieldComponent.h */,
+				7A2479B123B0BA050022EA43 /* TEATextFieldComponent.mm */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -1109,7 +1114,6 @@
 			isa = PBXGroup;
 			children = (
 				67B8F53523ABBEAA00588D51 /* TEA */,
-				7AE39C5023AB67910099C731 /* TEALoadingView.swift */,
 				7AE39BD323AB10740099C731 /* AppDelegate.swift */,
 				7AE39BD523AB10740099C731 /* SceneDelegate.swift */,
 				7AE39BD723AB10740099C731 /* ViewController.swift */,
@@ -1144,6 +1148,7 @@
 			isa = PBXGroup;
 			children = (
 				7AE39C3D23AB111C0099C731 /* TEAView.swift */,
+				7A2479B623B0BBA30022EA43 /* TEALoadingView.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -2216,11 +2221,12 @@
 				67B8F50923ABBDEC00588D51 /* ViewController.m in Sources */,
 				67B8F50323ABBDEC00588D51 /* AppDelegate.m in Sources */,
 				67B8F59F23AD213300588D51 /* TEABrain.swift in Sources */,
-				67B8F5A523AFE5BE00588D51 /* TEALoadingComponent.mm in Sources */,
 				67B8F51423ABBDEF00588D51 /* main.m in Sources */,
+				7A2479B423B0BA050022EA43 /* TEATextFieldComponent.mm in Sources */,
 				67B8F5A223AFB70300588D51 /* TEAComponent.mm in Sources */,
 				7AE39CC123ACDD300099C731 /* CalculatorFakeServer.m in Sources */,
 				67B8F53B23ABBF3C00588D51 /* TEAController.mm in Sources */,
+				7A2479B523B0BA050022EA43 /* TEALoadingComponent.mm in Sources */,
 				7AE39CC023ACDD300099C731 /* CalculatorRequest.swift in Sources */,
 				7AE39CBC23ACDD300099C731 /* CalculatorNetwork.swift in Sources */,
 				7AE39CBD23ACDD300099C731 /* CalculatorView.swift in Sources */,
@@ -2364,7 +2370,7 @@
 				7AE39C5623AB70B30099C731 /* TEABrain.swift in Sources */,
 				7AE39C4223AB1E550099C731 /* CalculatorFakeServer.m in Sources */,
 				7AE39BD823AB10740099C731 /* ViewController.swift in Sources */,
-				7AE39C5123AB67910099C731 /* TEALoadingView.swift in Sources */,
+				7A2479B723B0BBA30022EA43 /* TEALoadingView.swift in Sources */,
 				7AE39BD423AB10740099C731 /* AppDelegate.swift in Sources */,
 				7AE39C3E23AB111C0099C731 /* TEAView.swift in Sources */,
 				7AE39C3F23AB1E550099C731 /* CalculatorBrain.swift in Sources */,
@@ -2571,10 +2577,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HSNT46VJ7;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = CalculatorMVC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2596,10 +2599,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HSNT46VJ7;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = CalculatorMVC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2702,10 +2702,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = CalculatorMVP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2726,10 +2723,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = CalculatorMVP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (

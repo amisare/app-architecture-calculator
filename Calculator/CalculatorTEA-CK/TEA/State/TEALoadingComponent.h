@@ -8,12 +8,8 @@
 
 #import <ComponentKit/ComponentKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface TEALoadingComponent : CKCompositeComponent
 
 + (instancetype)new;
 
 @end
-
-NS_ASSUME_NONNULL_END

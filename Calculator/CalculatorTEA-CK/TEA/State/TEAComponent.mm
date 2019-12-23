@@ -11,17 +11,7 @@
 #import <ComponentKit/CKAction.h>
 #import <ComponentKit/CKComponentSubclass.h>
 #import "TEALoadingComponent.h"
-
-@interface TEAComponentState : NSObject
-
-@property (nonatomic, assign) BOOL isLoading;
-
-@end
-
-@implementation TEAComponentState
-
-@end
-
+#import "TEATextFieldComponent.h"
 
 @interface TEAComponent()
 
@@ -36,66 +26,60 @@
 }
 
 + (id)initialState {
-    TEAComponentState *state = [TEAComponentState new];
-    state.isLoading = false;
-    return state;
+    return @(false);
 }
 
 + (TEAComponent *)newWithModel:(TEAModel *)model context:(id)context {
     CKComponentScope scope(self);
-    TEAComponentState *state = scope.state();
-//    BOOL isLoading = state.isLoading;
+    BOOL isLoading = [scope.state() boolValue];
     
-    BOOL isLoading = true;
+    CKCompositeComponent *calcuator =
+    [CKCompositeComponent
+     newWithComponent: [CKInsetComponent
+                       newWithInsets:{ UIEdgeInsetsMake(20, 20, 0, 20) }
+                       component: [CKCenterLayoutComponent
+                                   newWithCenteringOptions:{}
+                                   sizingOptions:CKCenterLayoutComponentSizingOptionDefault
+                                   child: [CKFlexboxComponent
+                                           newWithView:{}
+                                           size: {}
+                                           style: {.spacing = 20}
+                                           children: {
+                                            {
+                                                
+                                                [TEATextFieldComponent newWithText:model.result
+                                                                    onChangeAction:{@selector(onChangeAction:value:)}
+                                                                    #pragma clang diagnostic push
+                                                                    #pragma clang diagnostic ignored "-Wundeclared-selector"
+                                                                    onDidEndAction:{scope, @selector(calculate)}
+                                                                    #pragma clang diagnostic pop
+                                                                           context:context]
+                                            },
+                                            {
+                                                [CKButtonComponent
+                                                 #pragma clang diagnostic push
+                                                 #pragma clang diagnostic ignored "-Wundeclared-selector"
+                                                 newWithAction:{scope, @selector(calculate:)}
+                                                 #pragma clang diagnostic pop
+                                                 options:{
+                                                    .titles = @"确定",
+                                                    .titleColors = [UIColor blackColor] }
+                                                 ]
+                                            }
+                                        }]
+                                   size:{}]
+                       ]
+     ];
     
-    CKCompositeComponent *show = [CKCompositeComponent newWithComponent:
-            [CKInsetComponent
-             newWithInsets:{ UIEdgeInsetsMake(20, 20, 0, 20) }
-             component: [CKCenterLayoutComponent
-                         newWithCenteringOptions:{}
-                         sizingOptions:CKCenterLayoutComponentSizingOptionDefault
-                         child: [CKFlexboxComponent
-                                 newWithView:{}
-                                 size: {}
-                                 style: {.spacing = 20}
-                                 children:
-                                 {
-        {
-            [CKComponent
-             newWithView:{
-                [UITextField class],
-                {
-                    {@selector(setText:), model.result},
-                    {@selector(setBorderStyle:), UITextBorderStyleRoundedRect},
-                    {@selector(setTextAlignment:), NSTextAlignmentRight},
-                    CKComponentActionAttribute(CKAction<>::actionFromBlock(^(CKComponent *component) {
-                        UITextField *textField = (UITextField *)component.viewContext.view;
-                        model.textInputValue = textField.text;
-                    }), UIControlEventEditingChanged),
-                    CKComponentActionAttribute({scope, @selector(calculate)}, UIControlEventEditingDidEndOnExit),
-                }
-            }
-             size: {
-                .height = 44,
-            }]
-        },
-        {
-            [CKButtonComponent
-             newWithAction:{scope, @selector(calculate)}
-             options:{
-                .titles = @"确定",
-                .titleColors = [UIColor blackColor] }
-             ]
-        }
-    }
-                                 ]
-                         size:{}]
-             ]
-            ];
+    CKComponent *loading =
+    isLoading ? [TEALoadingComponent new] : nil;
     
-    CKComponent *overlay = isLoading ? [TEALoadingComponent new] : nil;
-    
-    TEAComponent *c = [TEAComponent newWithComponent:[CKOverlayLayoutComponent newWithComponent:show overlay:overlay]];
+    TEAComponent *c =
+    [TEAComponent
+     newWithComponent:[CKOverlayLayoutComponent
+                       newWithComponent:calcuator
+                       overlay:loading]
+     ];
     
     if (c) {
         c.model = model;
@@ -104,11 +88,17 @@
     return c;
 }
 
+- (void)onChangeAction:(TEATextFieldComponent *)component value:(NSString *)value {
+    self.model.textInputValue = value;
+}
+
 @end
 
 
 @interface TEAComponentController()
+
 @property (nonatomic, strong) TEAModel *model;
+
 @end
 
 @implementation TEAComponentController
@@ -129,12 +119,9 @@
 
 - (void)componentLoading:(BOOL)loading {
     [self.component updateState:^id(id currentState) {
-        TEAComponentState *state = [TEAComponentState new];
-        state.isLoading = loading;
-        return state;
+        return @(loading);
     } mode:CKUpdateModeSynchronous];
 }
-
 
 @end
 

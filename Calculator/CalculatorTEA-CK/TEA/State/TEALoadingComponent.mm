@@ -14,14 +14,13 @@
 + (instancetype)new {
     return [super newWithComponent:
             [CKComponent
-             newWithView:{
+             newWithView: {
                 [MBProgressHUD class],
                 {
+                    {@selector(showAnimated:), @(true)},
                 }
             }
-             size: {
-                .height = 44,
-            }]
+             size: {}]
             ];
 }
 

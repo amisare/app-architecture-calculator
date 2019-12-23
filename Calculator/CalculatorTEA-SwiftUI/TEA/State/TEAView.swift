@@ -10,7 +10,7 @@ import SwiftUI
 
 struct TEAView: View {
     @EnvironmentObject private var model: TEAModel
-    @State var showLoading = false
+    @State var isLoading = false
     
     var body: some View {
         ZStack {
@@ -32,18 +32,18 @@ struct TEAView: View {
                 }
                 .navigationBarTitle("TEA-SwiftUI", displayMode: NavigationBarItem.TitleDisplayMode.inline)
             }
-            if(self.showLoading) {
-                ActivityIndicator(show: self.$showLoading)
+            if(self.isLoading) {
+                ActivityIndicator(show: self.$isLoading)
             }
         }
     }
     
     private func calculate() -> (() -> Void) {
         return {
-            self.showLoading = true
+            self.isLoading = true
             _ = self.model.calculate
                 .sink(receiveValue: { (value) in
-                    self.showLoading = false
+                    self.isLoading = false
                 })
         }
     }
