@@ -1,6 +1,6 @@
 source 'https://cdn.cocoapods.org/'
 
-platform :ios, '8.0'
+platform :ios, '13.0'
 
 inhibit_all_warnings!
 use_frameworks!
@@ -12,7 +12,6 @@ def common_pods
     pod 'GCDWebServer'
     pod 'MBProgressHUD'
     pod 'Toast'
-    pod 'ComponentKit', :path => './Local Podspecs/ComponentKit.podspec'
     pod 'RxSwift'
     pod 'RxCocoa'
 end
@@ -43,4 +42,5 @@ end
 
 target 'CalculatorTEA-CK' do
     common_pods
+    pod 'ComponentKit', '0.29'
 end

@@ -760,14 +760,14 @@
 		67B8F53723ABBEC300588D51 /* State */ = {
 			isa = PBXGroup;
 			children = (
-				67B8F5A023AFB70300588D51 /* TEAComponent.h */,
-				67B8F5A123AFB70300588D51 /* TEAComponent.mm */,
-				67B8F53923ABBF3C00588D51 /* TEAController.h */,
-				67B8F53A23ABBF3C00588D51 /* TEAController.mm */,
 				7A2479B023B0BA040022EA43 /* TEALoadingComponent.h */,
 				7A2479B323B0BA050022EA43 /* TEALoadingComponent.mm */,
 				7A2479B223B0BA050022EA43 /* TEATextFieldComponent.h */,
 				7A2479B123B0BA050022EA43 /* TEATextFieldComponent.mm */,
+				67B8F5A023AFB70300588D51 /* TEAComponent.h */,
+				67B8F5A123AFB70300588D51 /* TEAComponent.mm */,
+				67B8F53923ABBF3C00588D51 /* TEAController.h */,
+				67B8F53A23ABBF3C00588D51 /* TEAController.mm */,
 			);
 			path = State;
 			sourceTree = "<group>";
