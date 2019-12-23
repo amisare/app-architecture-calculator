@@ -59,7 +59,7 @@
                                                 [CKButtonComponent
                                                  #pragma clang diagnostic push
                                                  #pragma clang diagnostic ignored "-Wundeclared-selector"
-                                                 newWithAction:{scope, @selector(calculate:)}
+                                                 newWithAction:{scope, @selector(calculate)}
                                                  #pragma clang diagnostic pop
                                                  options:{
                                                     .titles = @"确定",
