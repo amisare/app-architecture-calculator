@@ -67,16 +67,12 @@
 		7A1975E223AA014900D6BFDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1975E023AA014900D6BFDA /* LaunchScreen.storyboard */; };
 		7A1975ED23AA014900D6BFDA /* CalculatorMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1975EC23AA014900D6BFDA /* CalculatorMVVMTests.swift */; };
 		7A1975F823AA014900D6BFDA /* CalculatorMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1975F723AA014900D6BFDA /* CalculatorMVVMUITests.swift */; };
-		7A19760823AA01D000D6BFDA /* MVVMController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19760723AA01D000D6BFDA /* MVVMController.swift */; };
 		7A19760923AA01FF00D6BFDA /* CalculatorNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67D3A0239737C900EEDF5B /* CalculatorNetwork.swift */; };
 		7A19760A23AA020300D6BFDA /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D9512396487B0035765E /* CalculatorView.swift */; };
 		7A19760B23AA020300D6BFDA /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D956239649550035765E /* CalculatorBrain.swift */; };
 		7A19760C23AA020300D6BFDA /* CalculatorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F0A2023A4CF2C003F11A1 /* CalculatorResult.swift */; };
 		7A19760D23AA020300D6BFDA /* CalculatorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67D3A32397411A00EEDF5B /* CalculatorRequest.swift */; };
 		7A19760E23AA020900D6BFDA /* CalculatorFakeServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D97E239681B70035765E /* CalculatorFakeServer.m */; };
-		7A19761123AA036700D6BFDA /* MVVMBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19761023AA036700D6BFDA /* MVVMBrain.swift */; };
-		7A19761523AA03A400D6BFDA /* MVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19761423AA03A400D6BFDA /* MVVMViewModel.swift */; };
-		7A19761723AA079E00D6BFDA /* MVVMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19761623AA079E00D6BFDA /* MVVMView.swift */; };
 		7A19765D23AA0DFA00D6BFDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19765C23AA0DFA00D6BFDA /* AppDelegate.swift */; };
 		7A19765F23AA0DFA00D6BFDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19765E23AA0DFA00D6BFDA /* SceneDelegate.swift */; };
 		7A19766123AA0DFA00D6BFDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19766023AA0DFA00D6BFDA /* ViewController.swift */; };
@@ -86,9 +82,6 @@
 		7A19767423AA0DFC00D6BFDA /* CalculatorMVVM_RxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19767323AA0DFC00D6BFDA /* CalculatorMVVM_RxTests.swift */; };
 		7A19767F23AA0DFC00D6BFDA /* CalculatorMVVM_RxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19767E23AA0DFC00D6BFDA /* CalculatorMVVM_RxUITests.swift */; };
 		7A19769223AA0ECA00D6BFDA /* MVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19768C23AA0EC900D6BFDA /* MVVMViewModel.swift */; };
-		7A19769323AA0ECA00D6BFDA /* MVVMBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19768E23AA0EC900D6BFDA /* MVVMBrain.swift */; };
-		7A19769423AA0ECA00D6BFDA /* MVVMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19769023AA0EC900D6BFDA /* MVVMView.swift */; };
-		7A19769523AA0ECA00D6BFDA /* MVVMController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19769123AA0EC900D6BFDA /* MVVMController.swift */; };
 		7A19769723AA0EF400D6BFDA /* CalculatorNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67D3A0239737C900EEDF5B /* CalculatorNetwork.swift */; };
 		7A19769823AA0EF400D6BFDA /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D9512396487B0035765E /* CalculatorView.swift */; };
 		7A19769923AA0EF400D6BFDA /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D956239649550035765E /* CalculatorBrain.swift */; };
@@ -98,6 +91,32 @@
 		7A2479B423B0BA050022EA43 /* TEATextFieldComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7A2479B123B0BA050022EA43 /* TEATextFieldComponent.mm */; };
 		7A2479B523B0BA050022EA43 /* TEALoadingComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7A2479B323B0BA050022EA43 /* TEALoadingComponent.mm */; };
 		7A2479B723B0BBA30022EA43 /* TEALoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2479B623B0BBA30022EA43 /* TEALoadingView.swift */; };
+		7A2479BF23B0C6530022EA43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2479BE23B0C6530022EA43 /* AppDelegate.swift */; };
+		7A2479C123B0C6530022EA43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2479C023B0C6530022EA43 /* SceneDelegate.swift */; };
+		7A2479C323B0C6530022EA43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2479C223B0C6530022EA43 /* ViewController.swift */; };
+		7A2479C623B0C6530022EA43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2479C423B0C6530022EA43 /* Main.storyboard */; };
+		7A2479C823B0C6550022EA43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2479C723B0C6550022EA43 /* Assets.xcassets */; };
+		7A2479CB23B0C6550022EA43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2479C923B0C6550022EA43 /* LaunchScreen.storyboard */; };
+		7A2479D623B0C6550022EA43 /* CalculatorMAVBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2479D523B0C6550022EA43 /* CalculatorMAVBTests.swift */; };
+		7A2479E123B0C6550022EA43 /* CalculatorMAVBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2479E023B0C6550022EA43 /* CalculatorMAVBUITests.swift */; };
+		7A247A0123B0C79F0022EA43 /* MVVMBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2479FB23B0C79E0022EA43 /* MVVMBrain.swift */; };
+		7A247A0223B0C79F0022EA43 /* MVVMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2479FD23B0C79E0022EA43 /* MVVMView.swift */; };
+		7A247A0323B0C79F0022EA43 /* MVVMController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2479FE23B0C79E0022EA43 /* MVVMController.swift */; };
+		7A247A0423B0C79F0022EA43 /* MVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A247A0023B0C79E0022EA43 /* MVVMViewModel.swift */; };
+		7A247A0523B0C83E0022EA43 /* MAVBModelAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19761423AA03A400D6BFDA /* MAVBModelAdapter.swift */; };
+		7A247A0923B0C8630022EA43 /* CalculatorNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67D3A0239737C900EEDF5B /* CalculatorNetwork.swift */; };
+		7A247A0A23B0C8630022EA43 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D9512396487B0035765E /* CalculatorView.swift */; };
+		7A247A0B23B0C8630022EA43 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D956239649550035765E /* CalculatorBrain.swift */; };
+		7A247A0C23B0C8630022EA43 /* CalculatorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F0A2023A4CF2C003F11A1 /* CalculatorResult.swift */; };
+		7A247A0D23B0C8630022EA43 /* CalculatorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67D3A32397411A00EEDF5B /* CalculatorRequest.swift */; };
+		7A247A0E23B0C8840022EA43 /* CalculatorFakeServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D97E239681B70035765E /* CalculatorFakeServer.m */; };
+		7A247A1023B0C8D50022EA43 /* MAVBViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A247A0F23B0C8D50022EA43 /* MAVBViewAdapter.swift */; };
+		7A247A1123B0CB890022EA43 /* MAVBBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19768E23AA0EC900D6BFDA /* MAVBBrain.swift */; };
+		7A247A1223B0CB890022EA43 /* MAVBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19769023AA0EC900D6BFDA /* MAVBView.swift */; };
+		7A247A1323B0CB890022EA43 /* MAVBController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19769123AA0EC900D6BFDA /* MAVBController.swift */; };
+		7A247A1723B0CBCD0022EA43 /* MVVMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A247A1623B0CBC60022EA43 /* MVVMView.swift */; };
+		7A247A1823B0CBCD0022EA43 /* MVVMController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A247A1423B0CBBB0022EA43 /* MVVMController.swift */; };
+		7A247A1923B0CBCD0022EA43 /* MVVMBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A247A1523B0CBC40022EA43 /* MVVMBrain.swift */; };
 		7AE39B5923AB010C0099C731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39B5823AB010C0099C731 /* AppDelegate.swift */; };
 		7AE39B5B23AB010C0099C731 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39B5A23AB010C0099C731 /* SceneDelegate.swift */; };
 		7AE39B5D23AB010C0099C731 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39B5C23AB010C0099C731 /* ViewController.swift */; };
@@ -129,12 +148,12 @@
 		7AE39C4C23AB548E0099C731 /* TEAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39C4B23AB548E0099C731 /* TEAModel.swift */; };
 		7AE39C5623AB70B30099C731 /* TEABrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE39C5523AB70B30099C731 /* TEABrain.swift */; };
 		7AE39CBC23ACDD300099C731 /* CalculatorNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67D3A0239737C900EEDF5B /* CalculatorNetwork.swift */; };
-		7AE39CBD23ACDD300099C731 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D9512396487B0035765E /* CalculatorView.swift */; };
 		7AE39CBE23ACDD300099C731 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D956239649550035765E /* CalculatorBrain.swift */; };
 		7AE39CBF23ACDD300099C731 /* CalculatorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F0A2023A4CF2C003F11A1 /* CalculatorResult.swift */; };
 		7AE39CC023ACDD300099C731 /* CalculatorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67D3A32397411A00EEDF5B /* CalculatorRequest.swift */; };
 		7AE39CC123ACDD300099C731 /* CalculatorFakeServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A17D97E239681B70035765E /* CalculatorFakeServer.m */; };
 		8A9FEA206535E97960DB10C9 /* Pods_CalculatorMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28656DBB885B4415892D0340 /* Pods_CalculatorMVVM.framework */; };
+		9BCE933BDEE5A3C5273F318E /* Pods_CalculatorMAVB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A114D2EFE59D6ECE9C67BC4 /* Pods_CalculatorMAVB.framework */; };
 		AF43C0DA5C2598DDD0F53D42 /* Pods_CalculatorMVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1706AC70E846F5C7E0233D90 /* Pods_CalculatorMVP.framework */; };
 		DB2B0901A6BF1B601A26B3BF /* Pods_CalculatorMVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820087EA3DA2B8E716AC121B /* Pods_CalculatorMVC.framework */; };
 /* End PBXBuildFile section */
@@ -210,6 +229,20 @@
 			remoteGlobalIDString = 7A19765923AA0DFA00D6BFDA;
 			remoteInfo = "CalculatorMVVM-Rx";
 		};
+		7A2479D223B0C6550022EA43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A17D853239624000035765E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A2479BB23B0C6530022EA43;
+			remoteInfo = CalculatorMAVB;
+		};
+		7A2479DD23B0C6550022EA43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A17D853239624000035765E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A2479BB23B0C6530022EA43;
+			remoteInfo = CalculatorMAVB;
+		};
 		7AE39B6C23AB010D0099C731 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7A17D853239624000035765E /* Project object */;
@@ -248,7 +281,10 @@
 		28656DBB885B4415892D0340 /* Pods_CalculatorMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3161CA30BC785FE33DF1FAB9 /* Pods_CalculatorTEA_CK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorTEA_CK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		346574447AE0CDB4BEB41D51 /* Pods_CalculatorMVC_VS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorMVC_VS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A69C27228D4DF9F4E4D0B9E /* Pods-CalculatorMAVB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorMAVB.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-CalculatorMAVB/Pods-CalculatorMAVB.release.xcconfig"; sourceTree = "<group>"; };
 		405EBA14F69E2E3B714B5CD3 /* Pods_CalculatorTEA_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorTEA_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A114D2EFE59D6ECE9C67BC4 /* Pods_CalculatorMAVB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorMAVB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6FC00AB0A2B86045CB4A8D /* Pods-CalculatorMAVB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorMAVB.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-CalculatorMAVB/Pods-CalculatorMAVB.debug.xcconfig"; sourceTree = "<group>"; };
 		64BB20DC04D134E3151B25BE /* Pods_CalculatorMVVM_Rx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorMVVM_Rx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66DAA8D906DD5BCC20A04BDF /* Pods-CalculatorMVVM-Rx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorMVVM-Rx.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-CalculatorMVVM-Rx/Pods-CalculatorMVVM-Rx.debug.xcconfig"; sourceTree = "<group>"; };
 		679F08F723A4C36A003F11A1 /* ComponentKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ComponentKit.framework; path = Carthage/Build/iOS/ComponentKit.framework; sourceTree = "<group>"; };
@@ -335,11 +371,8 @@
 		7A1975F323AA014900D6BFDA /* CalculatorMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1975F723AA014900D6BFDA /* CalculatorMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorMVVMUITests.swift; sourceTree = "<group>"; };
 		7A1975F923AA014900D6BFDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A19760723AA01D000D6BFDA /* MVVMController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMController.swift; sourceTree = "<group>"; };
 		7A19760F23AA021900D6BFDA /* Calculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator-Bridging-Header.h"; sourceTree = "<group>"; };
-		7A19761023AA036700D6BFDA /* MVVMBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMBrain.swift; sourceTree = "<group>"; };
-		7A19761423AA03A400D6BFDA /* MVVMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewModel.swift; sourceTree = "<group>"; };
-		7A19761623AA079E00D6BFDA /* MVVMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMView.swift; sourceTree = "<group>"; };
+		7A19761423AA03A400D6BFDA /* MAVBModelAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAVBModelAdapter.swift; sourceTree = "<group>"; };
 		7A19765A23AA0DFA00D6BFDA /* CalculatorMVVM-Rx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalculatorMVVM-Rx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A19765C23AA0DFA00D6BFDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A19765E23AA0DFA00D6BFDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -355,15 +388,38 @@
 		7A19767E23AA0DFC00D6BFDA /* CalculatorMVVM_RxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorMVVM_RxUITests.swift; sourceTree = "<group>"; };
 		7A19768023AA0DFC00D6BFDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A19768C23AA0EC900D6BFDA /* MVVMViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMViewModel.swift; sourceTree = "<group>"; };
-		7A19768E23AA0EC900D6BFDA /* MVVMBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMBrain.swift; sourceTree = "<group>"; };
-		7A19769023AA0EC900D6BFDA /* MVVMView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMView.swift; sourceTree = "<group>"; };
-		7A19769123AA0EC900D6BFDA /* MVVMController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMController.swift; sourceTree = "<group>"; };
+		7A19768E23AA0EC900D6BFDA /* MAVBBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVBBrain.swift; sourceTree = "<group>"; };
+		7A19769023AA0EC900D6BFDA /* MAVBView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVBView.swift; sourceTree = "<group>"; };
+		7A19769123AA0EC900D6BFDA /* MAVBController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVBController.swift; sourceTree = "<group>"; };
 		7A19769623AA0EE400D6BFDA /* Calculator-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Calculator-Bridging-Header.h"; sourceTree = "<group>"; };
 		7A2479B023B0BA040022EA43 /* TEALoadingComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEALoadingComponent.h; sourceTree = "<group>"; };
 		7A2479B123B0BA050022EA43 /* TEATextFieldComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TEATextFieldComponent.mm; sourceTree = "<group>"; };
 		7A2479B223B0BA050022EA43 /* TEATextFieldComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEATextFieldComponent.h; sourceTree = "<group>"; };
 		7A2479B323B0BA050022EA43 /* TEALoadingComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TEALoadingComponent.mm; sourceTree = "<group>"; };
 		7A2479B623B0BBA30022EA43 /* TEALoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TEALoadingView.swift; sourceTree = "<group>"; };
+		7A2479BC23B0C6530022EA43 /* CalculatorMAVB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorMAVB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2479BE23B0C6530022EA43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A2479C023B0C6530022EA43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7A2479C223B0C6530022EA43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A2479C523B0C6530022EA43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A2479C723B0C6550022EA43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A2479CA23B0C6550022EA43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A2479CC23B0C6550022EA43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A2479D123B0C6550022EA43 /* CalculatorMAVBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorMAVBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2479D523B0C6550022EA43 /* CalculatorMAVBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorMAVBTests.swift; sourceTree = "<group>"; };
+		7A2479D723B0C6550022EA43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A2479DC23B0C6550022EA43 /* CalculatorMAVBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorMAVBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2479E023B0C6550022EA43 /* CalculatorMAVBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorMAVBUITests.swift; sourceTree = "<group>"; };
+		7A2479E223B0C6550022EA43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A2479EF23B0C6CD0022EA43 /* Calculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator-Bridging-Header.h"; sourceTree = "<group>"; };
+		7A2479FB23B0C79E0022EA43 /* MVVMBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMBrain.swift; sourceTree = "<group>"; };
+		7A2479FD23B0C79E0022EA43 /* MVVMView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMView.swift; sourceTree = "<group>"; };
+		7A2479FE23B0C79E0022EA43 /* MVVMController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMController.swift; sourceTree = "<group>"; };
+		7A247A0023B0C79E0022EA43 /* MVVMViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMViewModel.swift; sourceTree = "<group>"; };
+		7A247A0F23B0C8D50022EA43 /* MAVBViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAVBViewAdapter.swift; sourceTree = "<group>"; };
+		7A247A1423B0CBBB0022EA43 /* MVVMController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMController.swift; sourceTree = "<group>"; };
+		7A247A1523B0CBC40022EA43 /* MVVMBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMBrain.swift; sourceTree = "<group>"; };
+		7A247A1623B0CBC60022EA43 /* MVVMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMView.swift; sourceTree = "<group>"; };
 		7A67D3A0239737C900EEDF5B /* CalculatorNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorNetwork.swift; sourceTree = "<group>"; };
 		7A67D3A32397411A00EEDF5B /* CalculatorRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorRequest.swift; sourceTree = "<group>"; };
 		7AE39B5623AB010C0099C731 /* CalculatorMVC-VS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalculatorMVC-VS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -516,6 +572,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7A19767723AA0DFC00D6BFDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2479B923B0C6530022EA43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCE933BDEE5A3C5273F318E /* Pods_CalculatorMAVB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2479CE23B0C6550022EA43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2479D923B0C6550022EA43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -814,6 +892,9 @@
 				679F09D023A4C76E003F11A1 /* CalculatorMVC */,
 				679F09E723A4C771003F11A1 /* CalculatorMVCTests */,
 				679F09F223A4C771003F11A1 /* CalculatorMVCUITests */,
+				7AE39B5723AB010C0099C731 /* CalculatorMVC-VS */,
+				7AE39B6E23AB010D0099C731 /* CalculatorMVC-VSTests */,
+				7AE39B7923AB010D0099C731 /* CalculatorMVC-VSUITests */,
 				679F0A2723A4FD20003F11A1 /* CalculatorMVP */,
 				679F0A3E23A4FD22003F11A1 /* CalculatorMVPTests */,
 				679F0A4923A4FD22003F11A1 /* CalculatorMVPUITests */,
@@ -823,9 +904,9 @@
 				7A19765B23AA0DFA00D6BFDA /* CalculatorMVVM-Rx */,
 				7A19767223AA0DFC00D6BFDA /* CalculatorMVVM-RxTests */,
 				7A19767D23AA0DFC00D6BFDA /* CalculatorMVVM-RxUITests */,
-				7AE39B5723AB010C0099C731 /* CalculatorMVC-VS */,
-				7AE39B6E23AB010D0099C731 /* CalculatorMVC-VSTests */,
-				7AE39B7923AB010D0099C731 /* CalculatorMVC-VSUITests */,
+				7A2479BD23B0C6530022EA43 /* CalculatorMAVB */,
+				7A2479D423B0C6550022EA43 /* CalculatorMAVBTests */,
+				7A2479DF23B0C6550022EA43 /* CalculatorMAVBUITests */,
 				7AE39BD223AB10740099C731 /* CalculatorTEA-SwiftUI */,
 				7AE39BE923AB10760099C731 /* CalculatorTEA-SwiftUITests */,
 				7AE39BF423AB10760099C731 /* CalculatorTEA-SwiftUIUITests */,
@@ -862,6 +943,9 @@
 				67B8F4FF23ABBDEC00588D51 /* CalculatorTEA-CK.app */,
 				67B8F51923ABBDEF00588D51 /* CalculatorTEA-CKTests.xctest */,
 				67B8F52423ABBDEF00588D51 /* CalculatorTEA-CKUITests.xctest */,
+				7A2479BC23B0C6530022EA43 /* CalculatorMAVB.app */,
+				7A2479D123B0C6550022EA43 /* CalculatorMAVBTests.xctest */,
+				7A2479DC23B0C6550022EA43 /* CalculatorMAVBUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -879,6 +963,7 @@
 				346574447AE0CDB4BEB41D51 /* Pods_CalculatorMVC_VS.framework */,
 				405EBA14F69E2E3B714B5CD3 /* Pods_CalculatorTEA_SwiftUI.framework */,
 				3161CA30BC785FE33DF1FAB9 /* Pods_CalculatorTEA_CK.framework */,
+				5A114D2EFE59D6ECE9C67BC4 /* Pods_CalculatorMAVB.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -957,9 +1042,9 @@
 		7A19760323AA015500D6BFDA /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				7A19760623AA017100D6BFDA /* ViewModel */,
-				7A19760523AA016E00D6BFDA /* View */,
-				7A19760423AA015F00D6BFDA /* Model */,
+				7A2479FA23B0C79E0022EA43 /* Model */,
+				7A2479FC23B0C79E0022EA43 /* View */,
+				7A2479FF23B0C79E0022EA43 /* ViewModel */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -967,7 +1052,8 @@
 		7A19760423AA015F00D6BFDA /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7A19761023AA036700D6BFDA /* MVVMBrain.swift */,
+				7A19761423AA03A400D6BFDA /* MAVBModelAdapter.swift */,
+				7A19768E23AA0EC900D6BFDA /* MAVBBrain.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -975,18 +1061,11 @@
 		7A19760523AA016E00D6BFDA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7A19761623AA079E00D6BFDA /* MVVMView.swift */,
-				7A19760723AA01D000D6BFDA /* MVVMController.swift */,
+				7A247A0F23B0C8D50022EA43 /* MAVBViewAdapter.swift */,
+				7A19769023AA0EC900D6BFDA /* MAVBView.swift */,
+				7A19769123AA0EC900D6BFDA /* MAVBController.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		7A19760623AA017100D6BFDA /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				7A19761423AA03A400D6BFDA /* MVVMViewModel.swift */,
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		7A19765B23AA0DFA00D6BFDA /* CalculatorMVVM-Rx */ = {
@@ -1044,7 +1123,7 @@
 		7A19768D23AA0EC900D6BFDA /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7A19768E23AA0EC900D6BFDA /* MVVMBrain.swift */,
+				7A247A1523B0CBC40022EA43 /* MVVMBrain.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1052,10 +1131,78 @@
 		7A19768F23AA0EC900D6BFDA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7A19769023AA0EC900D6BFDA /* MVVMView.swift */,
-				7A19769123AA0EC900D6BFDA /* MVVMController.swift */,
+				7A247A1623B0CBC60022EA43 /* MVVMView.swift */,
+				7A247A1423B0CBBB0022EA43 /* MVVMController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		7A2479BD23B0C6530022EA43 /* CalculatorMAVB */ = {
+			isa = PBXGroup;
+			children = (
+				7A2479EC23B0C65D0022EA43 /* MAVB */,
+				7A2479BE23B0C6530022EA43 /* AppDelegate.swift */,
+				7A2479C023B0C6530022EA43 /* SceneDelegate.swift */,
+				7A2479C223B0C6530022EA43 /* ViewController.swift */,
+				7A2479C423B0C6530022EA43 /* Main.storyboard */,
+				7A2479C723B0C6550022EA43 /* Assets.xcassets */,
+				7A2479C923B0C6550022EA43 /* LaunchScreen.storyboard */,
+				7A2479CC23B0C6550022EA43 /* Info.plist */,
+				7A2479EF23B0C6CD0022EA43 /* Calculator-Bridging-Header.h */,
+			);
+			path = CalculatorMAVB;
+			sourceTree = "<group>";
+		};
+		7A2479D423B0C6550022EA43 /* CalculatorMAVBTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A2479D523B0C6550022EA43 /* CalculatorMAVBTests.swift */,
+				7A2479D723B0C6550022EA43 /* Info.plist */,
+			);
+			path = CalculatorMAVBTests;
+			sourceTree = "<group>";
+		};
+		7A2479DF23B0C6550022EA43 /* CalculatorMAVBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A2479E023B0C6550022EA43 /* CalculatorMAVBUITests.swift */,
+				7A2479E223B0C6550022EA43 /* Info.plist */,
+			);
+			path = CalculatorMAVBUITests;
+			sourceTree = "<group>";
+		};
+		7A2479EC23B0C65D0022EA43 /* MAVB */ = {
+			isa = PBXGroup;
+			children = (
+				7A19760523AA016E00D6BFDA /* View */,
+				7A19760423AA015F00D6BFDA /* Model */,
+			);
+			path = MAVB;
+			sourceTree = "<group>";
+		};
+		7A2479FA23B0C79E0022EA43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A2479FB23B0C79E0022EA43 /* MVVMBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A2479FC23B0C79E0022EA43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A2479FD23B0C79E0022EA43 /* MVVMView.swift */,
+				7A2479FE23B0C79E0022EA43 /* MVVMController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A2479FF23B0C79E0022EA43 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7A247A0023B0C79E0022EA43 /* MVVMViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		7A67D39B2397376400EEDF5B /* Utility */ = {
@@ -1179,6 +1326,8 @@
 				91F8CEA81D802D0DD108A171 /* Pods-CalculatorTEA-SwiftUI.release.xcconfig */,
 				1F46E26EBFDA65D1E59CFAE9 /* Pods-CalculatorTEA-CK.debug.xcconfig */,
 				80EA46EBAC54922F50D900D0 /* Pods-CalculatorTEA-CK.release.xcconfig */,
+				5D6FC00AB0A2B86045CB4A8D /* Pods-CalculatorMAVB.debug.xcconfig */,
+				3A69C27228D4DF9F4E4D0B9E /* Pods-CalculatorMAVB.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1461,6 +1610,61 @@
 			productReference = 7A19767A23AA0DFC00D6BFDA /* CalculatorMVVM-RxUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		7A2479BB23B0C6530022EA43 /* CalculatorMAVB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A2479E923B0C6550022EA43 /* Build configuration list for PBXNativeTarget "CalculatorMAVB" */;
+			buildPhases = (
+				38086B8298D43507732A5372 /* [CP] Check Pods Manifest.lock */,
+				7A2479B823B0C6530022EA43 /* Sources */,
+				7A2479B923B0C6530022EA43 /* Frameworks */,
+				7A2479BA23B0C6530022EA43 /* Resources */,
+				EA51585240AD848C26EF4072 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalculatorMAVB;
+			productName = CalculatorMAVB;
+			productReference = 7A2479BC23B0C6530022EA43 /* CalculatorMAVB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A2479D023B0C6550022EA43 /* CalculatorMAVBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A2479EA23B0C6550022EA43 /* Build configuration list for PBXNativeTarget "CalculatorMAVBTests" */;
+			buildPhases = (
+				7A2479CD23B0C6550022EA43 /* Sources */,
+				7A2479CE23B0C6550022EA43 /* Frameworks */,
+				7A2479CF23B0C6550022EA43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A2479D323B0C6550022EA43 /* PBXTargetDependency */,
+			);
+			name = CalculatorMAVBTests;
+			productName = CalculatorMAVBTests;
+			productReference = 7A2479D123B0C6550022EA43 /* CalculatorMAVBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A2479DB23B0C6550022EA43 /* CalculatorMAVBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A2479EB23B0C6550022EA43 /* Build configuration list for PBXNativeTarget "CalculatorMAVBUITests" */;
+			buildPhases = (
+				7A2479D823B0C6550022EA43 /* Sources */,
+				7A2479D923B0C6550022EA43 /* Frameworks */,
+				7A2479DA23B0C6550022EA43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A2479DE23B0C6550022EA43 /* PBXTargetDependency */,
+			);
+			name = CalculatorMAVBUITests;
+			productName = CalculatorMAVBUITests;
+			productReference = 7A2479DC23B0C6550022EA43 /* CalculatorMAVBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		7AE39B5523AB010C0099C731 /* CalculatorMVC-VS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AE39B7D23AB010D0099C731 /* Build configuration list for PBXNativeTarget "CalculatorMVC-VS" */;
@@ -1577,7 +1781,7 @@
 		7A17D853239624000035765E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
+				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "顾海军";
 				TargetAttributes = {
@@ -1635,6 +1839,17 @@
 					7A19767923AA0DFC00D6BFDA = {
 						CreatedOnToolsVersion = 11.2.1;
 						TestTargetID = 7A19765923AA0DFA00D6BFDA;
+					};
+					7A2479BB23B0C6530022EA43 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					7A2479D023B0C6550022EA43 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 7A2479BB23B0C6530022EA43;
+					};
+					7A2479DB23B0C6550022EA43 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 7A2479BB23B0C6530022EA43;
 					};
 					7AE39B5523AB010C0099C731 = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -1694,6 +1909,9 @@
 				67B8F4FE23ABBDEC00588D51 /* CalculatorTEA-CK */,
 				67B8F51823ABBDEF00588D51 /* CalculatorTEA-CKTests */,
 				67B8F52323ABBDEF00588D51 /* CalculatorTEA-CKUITests */,
+				7A2479BB23B0C6530022EA43 /* CalculatorMAVB */,
+				7A2479D023B0C6550022EA43 /* CalculatorMAVBTests */,
+				7A2479DB23B0C6550022EA43 /* CalculatorMAVBUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1817,6 +2035,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7A2479BA23B0C6530022EA43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2479CB23B0C6550022EA43 /* LaunchScreen.storyboard in Resources */,
+				7A2479C823B0C6550022EA43 /* Assets.xcassets in Resources */,
+				7A2479C623B0C6530022EA43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2479CF23B0C6550022EA43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2479DA23B0C6550022EA43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AE39B5423AB010C0099C731 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1884,6 +2126,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CalculatorMVP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38086B8298D43507732A5372 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalculatorMAVB-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2141,6 +2405,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EA51585240AD848C26EF4072 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalculatorMAVB/Pods-CalculatorMAVB-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalculatorMAVB/Pods-CalculatorMAVB-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalculatorMAVB/Pods-CalculatorMAVB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -2229,7 +2510,6 @@
 				7A2479B523B0BA050022EA43 /* TEALoadingComponent.mm in Sources */,
 				7AE39CC023ACDD300099C731 /* CalculatorRequest.swift in Sources */,
 				7AE39CBC23ACDD300099C731 /* CalculatorNetwork.swift in Sources */,
-				7AE39CBD23ACDD300099C731 /* CalculatorView.swift in Sources */,
 				7AE39CBF23ACDD300099C731 /* CalculatorResult.swift in Sources */,
 				7AE39CBE23ACDD300099C731 /* CalculatorBrain.swift in Sources */,
 				67B8F50623ABBDEC00588D51 /* SceneDelegate.m in Sources */,
@@ -2256,15 +2536,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A247A0123B0C79F0022EA43 /* MVVMBrain.swift in Sources */,
 				7A19760B23AA020300D6BFDA /* CalculatorBrain.swift in Sources */,
-				7A19761523AA03A400D6BFDA /* MVVMViewModel.swift in Sources */,
 				7A19760923AA01FF00D6BFDA /* CalculatorNetwork.swift in Sources */,
 				7A19760C23AA020300D6BFDA /* CalculatorResult.swift in Sources */,
 				7A19760E23AA020900D6BFDA /* CalculatorFakeServer.m in Sources */,
-				7A19761123AA036700D6BFDA /* MVVMBrain.swift in Sources */,
 				7A1975DA23AA014800D6BFDA /* ViewController.swift in Sources */,
-				7A19760823AA01D000D6BFDA /* MVVMController.swift in Sources */,
-				7A19761723AA079E00D6BFDA /* MVVMView.swift in Sources */,
+				7A247A0423B0C79F0022EA43 /* MVVMViewModel.swift in Sources */,
+				7A247A0323B0C79F0022EA43 /* MVVMController.swift in Sources */,
+				7A247A0223B0C79F0022EA43 /* MVVMView.swift in Sources */,
 				7A1975D623AA014800D6BFDA /* AppDelegate.swift in Sources */,
 				7A19760A23AA020300D6BFDA /* CalculatorView.swift in Sources */,
 				7A1975D823AA014800D6BFDA /* SceneDelegate.swift in Sources */,
@@ -2292,19 +2572,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A19769423AA0ECA00D6BFDA /* MVVMView.swift in Sources */,
 				7A19769223AA0ECA00D6BFDA /* MVVMViewModel.swift in Sources */,
-				7A19769523AA0ECA00D6BFDA /* MVVMController.swift in Sources */,
 				7A19766123AA0DFA00D6BFDA /* ViewController.swift in Sources */,
 				7A19769C23AA0EF400D6BFDA /* CalculatorFakeServer.m in Sources */,
+				7A247A1723B0CBCD0022EA43 /* MVVMView.swift in Sources */,
 				7A19765D23AA0DFA00D6BFDA /* AppDelegate.swift in Sources */,
+				7A247A1823B0CBCD0022EA43 /* MVVMController.swift in Sources */,
 				7A19769B23AA0EF400D6BFDA /* CalculatorRequest.swift in Sources */,
-				7A19769323AA0ECA00D6BFDA /* MVVMBrain.swift in Sources */,
 				7A19769723AA0EF400D6BFDA /* CalculatorNetwork.swift in Sources */,
 				7A19769823AA0EF400D6BFDA /* CalculatorView.swift in Sources */,
 				7A19769A23AA0EF400D6BFDA /* CalculatorResult.swift in Sources */,
 				7A19769923AA0EF400D6BFDA /* CalculatorBrain.swift in Sources */,
 				7A19765F23AA0DFA00D6BFDA /* SceneDelegate.swift in Sources */,
+				7A247A1923B0CBCD0022EA43 /* MVVMBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2321,6 +2601,43 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A19767F23AA0DFC00D6BFDA /* CalculatorMVVM_RxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2479B823B0C6530022EA43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A247A0523B0C83E0022EA43 /* MAVBModelAdapter.swift in Sources */,
+				7A2479C323B0C6530022EA43 /* ViewController.swift in Sources */,
+				7A247A1223B0CB890022EA43 /* MAVBView.swift in Sources */,
+				7A247A0E23B0C8840022EA43 /* CalculatorFakeServer.m in Sources */,
+				7A2479BF23B0C6530022EA43 /* AppDelegate.swift in Sources */,
+				7A247A1123B0CB890022EA43 /* MAVBBrain.swift in Sources */,
+				7A247A1023B0C8D50022EA43 /* MAVBViewAdapter.swift in Sources */,
+				7A247A0D23B0C8630022EA43 /* CalculatorRequest.swift in Sources */,
+				7A2479C123B0C6530022EA43 /* SceneDelegate.swift in Sources */,
+				7A247A1323B0CB890022EA43 /* MAVBController.swift in Sources */,
+				7A247A0923B0C8630022EA43 /* CalculatorNetwork.swift in Sources */,
+				7A247A0A23B0C8630022EA43 /* CalculatorView.swift in Sources */,
+				7A247A0C23B0C8630022EA43 /* CalculatorResult.swift in Sources */,
+				7A247A0B23B0C8630022EA43 /* CalculatorBrain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2479CD23B0C6550022EA43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2479D623B0C6550022EA43 /* CalculatorMAVBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2479D823B0C6550022EA43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2479E123B0C6550022EA43 /* CalculatorMAVBUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2448,6 +2765,16 @@
 			target = 7A19765923AA0DFA00D6BFDA /* CalculatorMVVM-Rx */;
 			targetProxy = 7A19767B23AA0DFC00D6BFDA /* PBXContainerItemProxy */;
 		};
+		7A2479D323B0C6550022EA43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A2479BB23B0C6530022EA43 /* CalculatorMAVB */;
+			targetProxy = 7A2479D223B0C6550022EA43 /* PBXContainerItemProxy */;
+		};
+		7A2479DE23B0C6550022EA43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A2479BB23B0C6530022EA43 /* CalculatorMAVB */;
+			targetProxy = 7A2479DD23B0C6550022EA43 /* PBXContainerItemProxy */;
+		};
 		7AE39B6D23AB010D0099C731 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7AE39B5523AB010C0099C731 /* CalculatorMVC-VS */;
@@ -2531,6 +2858,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				7A19766823AA0DFB00D6BFDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7A2479C423B0C6530022EA43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A2479C523B0C6530022EA43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A2479C923B0C6550022EA43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A2479CA23B0C6550022EA43 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -3298,6 +3641,128 @@
 			};
 			name = Release;
 		};
+		7A2479E323B0C6550022EA43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D6FC00AB0A2B86045CB4A8D /* Pods-CalculatorMAVB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalculatorMAVB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nn.CalculatorMAVB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CalculatorMAVB/Calculator-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A2479E423B0C6550022EA43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A69C27228D4DF9F4E4D0B9E /* Pods-CalculatorMAVB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalculatorMAVB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nn.CalculatorMAVB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CalculatorMAVB/Calculator-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A2479E523B0C6550022EA43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalculatorMAVBTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nn.CalculatorMAVBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculatorMAVB.app/CalculatorMAVB";
+			};
+			name = Debug;
+		};
+		7A2479E623B0C6550022EA43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalculatorMAVBTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nn.CalculatorMAVBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculatorMAVB.app/CalculatorMAVB";
+			};
+			name = Release;
+		};
+		7A2479E723B0C6550022EA43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalculatorMAVBUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nn.CalculatorMAVBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalculatorMAVB;
+			};
+			name = Debug;
+		};
+		7A2479E823B0C6550022EA43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalculatorMAVBUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nn.CalculatorMAVBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalculatorMAVB;
+			};
+			name = Release;
+		};
 		7AE39B7E23AB010D0099C731 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E0A5B35A71EF0BE8190E71FA /* Pods-CalculatorMVC-VS.debug.xcconfig */;
@@ -3691,6 +4156,33 @@
 			buildConfigurations = (
 				7A19768823AA0DFC00D6BFDA /* Debug */,
 				7A19768923AA0DFC00D6BFDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A2479E923B0C6550022EA43 /* Build configuration list for PBXNativeTarget "CalculatorMAVB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A2479E323B0C6550022EA43 /* Debug */,
+				7A2479E423B0C6550022EA43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A2479EA23B0C6550022EA43 /* Build configuration list for PBXNativeTarget "CalculatorMAVBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A2479E523B0C6550022EA43 /* Debug */,
+				7A2479E623B0C6550022EA43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A2479EB23B0C6550022EA43 /* Build configuration list for PBXNativeTarget "CalculatorMAVBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A2479E723B0C6550022EA43 /* Debug */,
+				7A2479E823B0C6550022EA43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

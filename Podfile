@@ -32,6 +32,10 @@ target 'CalculatorMVVM-Rx' do
     common_pods
 end
 
+target 'CalculatorMAVB' do
+    common_pods
+end
+
 target 'CalculatorMVC-VS' do
     common_pods
 end
